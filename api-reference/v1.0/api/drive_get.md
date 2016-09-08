@@ -94,7 +94,7 @@ Content-type: application/json
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of drive object.",
-  "tocPath": "/v1.0 reference/Users/drive/Get drive",
+  "tocPath": "Users/drive/Get drive",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

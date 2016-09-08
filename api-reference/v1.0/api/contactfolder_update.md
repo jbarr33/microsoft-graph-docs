@@ -76,7 +76,7 @@ Content-length: 104
 <!-- {
   "type": "#page.annotation",
   "description": "Update the properties of contactfolder object.",
-  "tocPath": "/v1.0 reference/Personal contact/contact folder/Update contact folder",
+  "tocPath": "Personal contact/contact folder/Update contact folder",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

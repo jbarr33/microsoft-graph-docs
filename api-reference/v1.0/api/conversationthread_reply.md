@@ -76,7 +76,7 @@ HTTP/1.1 202 Accepted
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Groups/conversation thread/Reply to conversation thread",
+  "tocPath": "Groups/conversation thread/Reply to conversation thread",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

@@ -130,7 +130,7 @@ Content-length: 1977
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of contact object.",
-  "tocPath": "/v1.0 reference/Personal contact/contact/Get contact",
+  "tocPath": "Personal contact/contact/Get contact",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

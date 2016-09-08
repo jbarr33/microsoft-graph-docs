@@ -89,7 +89,7 @@ Content-length: 523
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of post objects.",
-  "tocPath": "/v1.0 reference/Groups/post/List posts",
+  "tocPath": "Groups/post/List posts",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

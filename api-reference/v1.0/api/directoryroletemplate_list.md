@@ -67,7 +67,7 @@ Content-length: 139
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of directoryroletemplate objects.",
-  "tocPath": "/v1.0 reference/Directory/directory role template/List directoryRoleTemplates",
+  "tocPath": "Directory/directory role template/List directoryRoleTemplates",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

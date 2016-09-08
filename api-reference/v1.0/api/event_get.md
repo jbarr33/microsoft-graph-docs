@@ -117,7 +117,7 @@ Content-length: 285
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of event object.",
-  "tocPath": "/v1.0 reference/Outlook Calendar/event/Get event",
+  "tocPath": "Outlook Calendar/event/Get event",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

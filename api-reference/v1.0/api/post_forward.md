@@ -81,7 +81,7 @@ HTTP/1.1 200 OK
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Groups/post/Forward post",
+  "tocPath": "Groups/post/Forward post",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

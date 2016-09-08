@@ -55,7 +55,7 @@ HTTP/1.1 204 No Content
 <!-- {
   "type": "#page.annotation",
   "description": "Delete device.",
-  "tocPath": "/v1.0 reference/Directory/device/Delete device",
+  "tocPath": "Directory/device/Delete device",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

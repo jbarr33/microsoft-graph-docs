@@ -460,7 +460,7 @@ HTTP/1.1 200 OK
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of opentypeextension object.",
-  "tocPath": "/v1.0 reference/Data Extensions/opentypeextension/Get openTypeExtension",
+  "tocPath": "Data Extensions/opentypeextension/Get openTypeExtension",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

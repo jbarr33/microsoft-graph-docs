@@ -74,7 +74,7 @@ Content-length: 248
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of eventmessage object.",
-  "tocPath": "/v1.0 reference/Outlook Calendar/event message/Get event message",
+  "tocPath": "Outlook Calendar/event message/Get event message",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

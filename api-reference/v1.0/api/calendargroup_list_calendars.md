@@ -76,7 +76,7 @@ Content-length: 147
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of calendar objects.",
-  "tocPath": "/v1.0 reference/Outlook Calendar/calendar group/List calendars in calendar group",
+  "tocPath": "Outlook Calendar/calendar group/List calendars in calendar group",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

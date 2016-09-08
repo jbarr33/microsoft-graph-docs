@@ -57,7 +57,7 @@ HTTP/1.1 204 No Content
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to delete an acceptedSender.",
-  "tocPath": "/v1.0 reference/Groups/conversation/Delete accepted sender",
+  "tocPath": "Groups/conversation/Delete accepted sender",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

@@ -91,7 +91,7 @@ You can control the page size through [optional query string parameters](https:/
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of item objects.",
-  "tocPath": "/v1.0 reference/Users/drive/List children",
+  "tocPath": "Users/drive/List children",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

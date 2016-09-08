@@ -80,7 +80,7 @@ Content-length: 215
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of attachment objects.",
-  "tocPath": "/v1.0 reference/Groups/post/List attachments",
+  "tocPath": "Groups/post/List attachments",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

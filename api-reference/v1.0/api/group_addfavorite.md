@@ -55,7 +55,7 @@ HTTP/1.1 200 OK
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Groups/group/Add favorite",
+  "tocPath": "Groups/group/Add favorite",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

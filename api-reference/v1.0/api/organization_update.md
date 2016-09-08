@@ -118,7 +118,7 @@ Content-length: 411
 <!-- {
   "type": "#page.annotation",
   "description": "Update the properties of tenantdetail object.",
-  "tocPath": "/v1.0 reference/Directory/organization/Update org details",
+  "tocPath": "Directory/organization/Update org details",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

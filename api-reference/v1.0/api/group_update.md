@@ -91,7 +91,7 @@ Content-length: 211
 <!-- {
   "type": "#page.annotation",
   "description": "Update the properties of group object.",
-  "tocPath": "/v1.0 reference/Groups/group/Update group",
+  "tocPath": "Groups/group/Update group",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

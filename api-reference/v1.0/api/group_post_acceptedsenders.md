@@ -64,7 +64,7 @@ HTTP/1.1 204 No Content
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new acceptedSender.",
-  "tocPath": "/v1.0 reference/Groups/conversation/Create accepted sender",
+  "tocPath": "Groups/conversation/Create accepted sender",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

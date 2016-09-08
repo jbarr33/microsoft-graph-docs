@@ -77,7 +77,7 @@ Content-length: 215
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of attachment objects.",
-  "tocPath": "/v1.0 reference/Outlook Calendar/event message/List attachments",
+  "tocPath": "Outlook Calendar/event message/List attachments",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

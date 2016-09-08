@@ -105,7 +105,7 @@ Content-length: 322
 <!-- {
   "type": "#page.annotation",
   "description": "Update the properties of device object.",
-  "tocPath": "/v1.0 reference/Directory/device/Update device",
+  "tocPath": "Directory/device/Update device",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

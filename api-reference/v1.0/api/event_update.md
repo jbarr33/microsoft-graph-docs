@@ -115,7 +115,7 @@ Content-length: 285
 <!-- {
   "type": "#page.annotation",
   "description": "Update the properties of event object.",
-  "tocPath": "/v1.0 reference/Outlook Calendar/event/Update event",
+  "tocPath": "Outlook Calendar/event/Update event",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

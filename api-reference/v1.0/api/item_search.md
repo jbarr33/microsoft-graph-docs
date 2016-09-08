@@ -115,7 +115,7 @@ Content-type: application/json
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/OneDrive/driveitem/Search items",
+  "tocPath": "OneDrive/driveitem/Search items",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

@@ -84,7 +84,7 @@ Content-type: application/json
 <!-- {
   "type": "#page.annotation",
   "description": "Update an override for a sender identified by an SMTP address.",
-  "tocPath": "/v1.0 reference/Outlook Mail/Focused Inbox/Update Override",
+  "tocPath": "Outlook Mail/Focused Inbox/Update Override",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

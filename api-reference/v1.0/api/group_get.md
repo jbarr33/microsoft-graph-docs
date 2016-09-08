@@ -92,7 +92,7 @@ Content-length: xxx
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of group object.",
-  "tocPath": "/v1.0 reference/Groups/group/Get group",
+  "tocPath": "Groups/group/Get group",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

@@ -68,7 +68,7 @@ Content-length: 169
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/table/Get range",
+  "tocPath": "Excel/table/Get range",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

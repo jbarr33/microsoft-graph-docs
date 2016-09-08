@@ -54,7 +54,7 @@ HTTP/1.1 204 No Content
 <!-- {
   "type": "#page.annotation",
   "description": "Delete an override for a sender identified by an SMTP address.",
-  "tocPath": "/v1.0 reference/Outlook Mail/Focused Inbox/Delete Override",
+  "tocPath": "Outlook Mail/Focused Inbox/Delete Override",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

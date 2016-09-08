@@ -71,7 +71,7 @@ Content-length: 322
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of device object.",
-  "tocPath": "/v1.0 reference/Directory/device/Get device",
+  "tocPath": "Directory/device/Get device",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

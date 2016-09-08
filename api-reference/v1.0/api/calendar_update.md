@@ -94,7 +94,7 @@ Content-length: 98
 <!-- {
   "type": "#page.annotation",
   "description": "Update the properties of calendar object.",
-  "tocPath": "/v1.0 reference/Outlook Calendar/calendar/Update calendar",
+  "tocPath": "Outlook Calendar/calendar/Update calendar",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

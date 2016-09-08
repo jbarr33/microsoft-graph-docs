@@ -74,7 +74,7 @@ Content-length: 354
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of event objects.",
-  "tocPath": "/v1.0 reference/Groups/calendar/List events",
+  "tocPath": "Groups/calendar/List events",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

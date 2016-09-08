@@ -84,7 +84,7 @@ Content-type: application/json
 <!-- {
   "type": "#page.annotation",
   "description": "Create an override for a sender identified by an SMTP address.",
-  "tocPath": "/v1.0 reference/Users/mail/Create Override",
+  "tocPath": "Users/mail/Create Override",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

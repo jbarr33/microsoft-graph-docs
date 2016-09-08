@@ -57,7 +57,7 @@ HTTP/1.1 204 No Content
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Groups/group/Remove owner",
+  "tocPath": "Groups/group/Remove owner",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

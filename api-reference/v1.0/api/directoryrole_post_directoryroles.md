@@ -81,7 +81,7 @@ Content-length: 175
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new DirectoryRole.",
-  "tocPath": "/v1.0 reference/Directory/directory role/Enable DirectoryRole",
+  "tocPath": "Directory/directory role/Enable DirectoryRole",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

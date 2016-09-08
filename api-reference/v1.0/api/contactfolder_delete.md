@@ -56,7 +56,7 @@ HTTP/1.1 204 No Content
 <!-- {
   "type": "#page.annotation",
   "description": "Delete contactFolder.",
-  "tocPath": "/v1.0 reference/Personal contact/contact folder/Delete contact folder",
+  "tocPath": "Personal contact/contact folder/Delete contact folder",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

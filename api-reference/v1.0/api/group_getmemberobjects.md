@@ -75,7 +75,7 @@ Content-length: 39
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Groups/group/Get member objects",
+  "tocPath": "Groups/group/Get member objects",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

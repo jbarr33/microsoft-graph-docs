@@ -87,7 +87,7 @@ Content-type: application/json
 <!-- {
   "type": "#page.annotation",
   "description": "Update the properties of item object.",
-  "tocPath": "/v1.0 reference/OneDrive/driveitem/Update item",
+  "tocPath": "OneDrive/driveitem/Update item",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

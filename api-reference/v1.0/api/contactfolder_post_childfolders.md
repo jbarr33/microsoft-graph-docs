@@ -75,7 +75,7 @@ Content-length: 104
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new ContactFolder.",
-  "tocPath": "/v1.0 reference/Personal contact/contact folder/Create child folder",
+  "tocPath": "Personal contact/contact folder/Create child folder",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

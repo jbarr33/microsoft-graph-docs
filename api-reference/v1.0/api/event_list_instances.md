@@ -100,7 +100,7 @@ Content-length: 354
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of event objects.",
-  "tocPath": "/v1.0 reference/Outlook Calendar/event/List event instances",
+  "tocPath": "Outlook Calendar/event/List event instances",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

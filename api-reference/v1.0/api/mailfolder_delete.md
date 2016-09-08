@@ -55,7 +55,7 @@ HTTP/1.1 204 No Content
 <!-- {
   "type": "#page.annotation",
   "description": "Delete mailFolder.",
-  "tocPath": "/v1.0 reference/Outlook Mail/mail folder/Delete mail folder",
+  "tocPath": "Outlook Mail/mail folder/Delete mail folder",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

@@ -74,7 +74,7 @@ Content-length: 411
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of tenantdetail object.",
-  "tocPath": "/v1.0 reference/Directory/organization/Get org details",
+  "tocPath": "Directory/organization/Get org details",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

@@ -62,7 +62,7 @@ HTTP/1.1 204 No Content
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new owner.",
-  "tocPath": "/v1.0 reference/Groups/group/Add owner",
+  "tocPath": "Groups/group/Add owner",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

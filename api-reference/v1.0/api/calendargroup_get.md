@@ -66,7 +66,7 @@ Content-length: 110
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of calendargroup object.",
-  "tocPath": "/v1.0 reference/Outlook Calendar/calendar group/Get calendar group",
+  "tocPath": "Outlook Calendar/calendar group/Get calendar group",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

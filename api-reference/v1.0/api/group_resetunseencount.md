@@ -57,7 +57,7 @@ HTTP/1.1 200 OK
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Groups/group/Reset unseen count",
+  "tocPath": "Groups/group/Reset unseen count",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

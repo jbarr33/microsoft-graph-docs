@@ -75,7 +75,7 @@ Content-length: 317
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of message objects.",
-  "tocPath": "/v1.0 reference/Outlook Mail/mail folder/List messages in folder",
+  "tocPath": "Outlook Mail/mail folder/List messages in folder",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

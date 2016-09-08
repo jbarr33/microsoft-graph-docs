@@ -104,7 +104,7 @@ require the Authorization header.
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/OneDrive/driveitem/Download item",
+  "tocPath": "OneDrive/driveitem/Download item",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

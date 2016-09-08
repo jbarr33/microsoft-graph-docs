@@ -65,7 +65,7 @@ Content-length: 55
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of directoryobject objects.",
-  "tocPath": "/v1.0 reference/Directory/directory role/List members",
+  "tocPath": "Directory/directory role/List members",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

@@ -68,7 +68,7 @@ Content-length: 82
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/table/List rows",
+  "tocPath": "Excel/table/List rows",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

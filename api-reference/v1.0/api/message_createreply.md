@@ -82,7 +82,7 @@ Content-length: 248
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Outlook Mail/message/Create reply to messages",
+  "tocPath": "Outlook Mail/message/Create reply to messages",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

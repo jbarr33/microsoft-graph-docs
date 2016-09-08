@@ -80,7 +80,7 @@ Content-length: 39
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Directory/directory object/Get member groups",
+  "tocPath": "Directory/directory object/Get member groups",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

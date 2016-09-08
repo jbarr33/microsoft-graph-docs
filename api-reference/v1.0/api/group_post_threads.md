@@ -106,7 +106,7 @@ Content-length: 419
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new thread.",
-  "tocPath": "/v1.0 reference/Groups/conversation thread/Create thread",
+  "tocPath": "Groups/conversation thread/Create thread",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

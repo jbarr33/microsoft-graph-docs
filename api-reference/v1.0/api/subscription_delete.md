@@ -51,7 +51,7 @@ HTTP/1.1 204 No Content
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Webhooks/Subscription/Delete subscription",
+  "tocPath": "Webhooks/Subscription/Delete subscription",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

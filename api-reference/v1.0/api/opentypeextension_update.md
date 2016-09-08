@@ -244,7 +244,7 @@ Content-Type: application/json
 <!-- {
   "type": "#page.annotation",
   "description": "Update the properties of opentypeextension object.",
-  "tocPath": "/v1.0 reference/Data Extensions/opentypeextension/Update opentypeextension",
+  "tocPath": "Data Extensions/opentypeextension/Update opentypeextension",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

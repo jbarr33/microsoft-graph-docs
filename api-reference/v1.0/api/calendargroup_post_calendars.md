@@ -82,7 +82,7 @@ Content-length: 98
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new Calendar.",
-  "tocPath": "/v1.0 reference/Outlook Calendar/calendar group/Create calendar in calendar group",
+  "tocPath": "Outlook Calendar/calendar group/Create calendar in calendar group",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

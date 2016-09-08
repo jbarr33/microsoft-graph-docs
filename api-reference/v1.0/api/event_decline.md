@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 <!-- {
   "type": "#page.annotation",
   "description": "Decline events",
-  "tocPath": "/v1.0 reference/Outlook Calendar/event/Decline events",
+  "tocPath": "Outlook Calendar/event/Decline events",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

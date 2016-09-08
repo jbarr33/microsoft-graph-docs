@@ -85,7 +85,7 @@ Content-length: 762
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of permission object.",
-  "tocPath": "/v1.0 reference/OneDrive/driveitem/Get permission",
+  "tocPath": "OneDrive/driveitem/Get permission",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

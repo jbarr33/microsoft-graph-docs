@@ -124,7 +124,7 @@ Depending on the subscribed resource, an additional resourceData field may provi
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Webhooks/Subscription/Create subscription",
+  "tocPath": "Webhooks/Subscription/Create subscription",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

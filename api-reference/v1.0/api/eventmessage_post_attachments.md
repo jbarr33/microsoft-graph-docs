@@ -104,7 +104,7 @@ HTTP/1.1 201 Created
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new Attachment.",
-  "tocPath": "/v1.0 reference/Outlook Calendar/event message/Create Attachment",
+  "tocPath": "Outlook Calendar/event message/Create Attachment",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

@@ -508,7 +508,7 @@ Content-type: application/json
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of opentypeextension object.",
-  "tocPath": "/v1.0 reference/Data Extensions/opentypeextension/Create openTypeExtension",
+  "tocPath": "Data Extensions/opentypeextension/Create openTypeExtension",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

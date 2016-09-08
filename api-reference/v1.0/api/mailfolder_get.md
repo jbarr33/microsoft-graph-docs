@@ -67,7 +67,7 @@ Content-length: 179
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of mailfolder object.",
-  "tocPath": "/v1.0 reference/Outlook Mail/mail folder/Get mail folder",
+  "tocPath": "Outlook Mail/mail folder/Get mail folder",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

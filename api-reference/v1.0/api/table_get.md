@@ -66,7 +66,7 @@ Content-length: 109
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/table/Get table",
+  "tocPath": "Excel/table/Get table",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

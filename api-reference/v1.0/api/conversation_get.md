@@ -69,7 +69,7 @@ Content-length: 201
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of conversation object.",
-  "tocPath": "/v1.0 reference/Groups/conversation/Get group conversation",
+  "tocPath": "Groups/conversation/Get group conversation",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

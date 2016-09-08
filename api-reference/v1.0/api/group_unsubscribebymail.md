@@ -56,7 +56,7 @@ HTTP/1.1 200 OK
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Groups/group/Unsubscribe by mail",
+  "tocPath": "Groups/group/Unsubscribe by mail",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

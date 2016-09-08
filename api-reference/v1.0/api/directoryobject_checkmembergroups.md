@@ -81,7 +81,7 @@ Content-length: 39
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Directory/directory object/Check member groups",
+  "tocPath": "Directory/directory object/Check member groups",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

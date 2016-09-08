@@ -69,7 +69,7 @@ Content-length: 55
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of directoryobject objects.",
-  "tocPath": "/v1.0 reference/Groups/conversation/List accepted senders",
+  "tocPath": "Groups/conversation/List accepted senders",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

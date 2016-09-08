@@ -81,7 +81,7 @@ Content-length: 179
 <!-- {
   "type": "#page.annotation",
   "description": "Move mail folder",
-  "tocPath": "/v1.0 reference/Outlook Mail/mail folder/Move mail folder",
+  "tocPath": "Outlook Mail/mail folder/Move mail folder",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

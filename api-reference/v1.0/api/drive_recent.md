@@ -97,7 +97,7 @@ GET /drives/<remoteItem.driveId>/items/<id>
 <!-- {
   "type": "#page.annotation",
   "description": "Get recent files.",
-  "tocPath": "/v1.0 reference/OneDrive/drive/Recent files",
+  "tocPath": "OneDrive/drive/Recent files",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

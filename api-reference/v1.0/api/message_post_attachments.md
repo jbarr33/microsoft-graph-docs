@@ -118,7 +118,7 @@ HTTP 200 OK
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new Attachment.",
-  "tocPath": "/v1.0 reference/Outlook Mail/message/Create attachment",
+  "tocPath": "Outlook Mail/message/Create attachment",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

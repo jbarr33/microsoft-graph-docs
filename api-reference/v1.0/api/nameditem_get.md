@@ -65,7 +65,7 @@ Content-length: 87
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/nameditem/List nameditem",
+  "tocPath": "Excel/nameditem/List nameditem",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""
