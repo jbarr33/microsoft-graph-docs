@@ -69,3 +69,12 @@ Content-length: 307
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API to list scoped-role administrators from an administrativeUnit object.",
+  "tocPath": "/beta reference/Directory/Administrative Unit/List scoped-role administrators",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

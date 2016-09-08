@@ -68,3 +68,13 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of page object.",
+  "tocPath": "/beta reference/OneNote/pages/Update page",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

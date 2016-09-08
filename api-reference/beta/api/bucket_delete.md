@@ -56,3 +56,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete bucket.",
+  "tocPath": "/beta reference/Tasks/bucket/Delete bucket",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

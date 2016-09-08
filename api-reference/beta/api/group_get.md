@@ -87,3 +87,13 @@ Content-length: xxx
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of group object.",
+  "tocPath": "/beta reference/Groups/group/Get group",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/group_get"
+} -->

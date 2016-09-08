@@ -85,3 +85,12 @@ Content-length: 201
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Conversation.",
+  "tocPath": "/v1.0 reference/Groups/conversation/Create conversation",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

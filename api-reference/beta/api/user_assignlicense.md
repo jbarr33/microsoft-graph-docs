@@ -95,3 +95,13 @@ Content-length: 491
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/beta reference/Users/directory objects/Assign license",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/user_assignlicense"
+} -->

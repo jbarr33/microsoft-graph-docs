@@ -65,3 +65,12 @@ Content-length: 145
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/beta reference/Excel/workbook/List worksheets",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/workbook_list_worksheets"
+} -->

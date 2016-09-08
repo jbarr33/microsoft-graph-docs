@@ -83,3 +83,12 @@ Content-length: 215
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of attachment objects.",
+  "tocPath": "/v1.0 reference/Outlook Mail/message/List attachments",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

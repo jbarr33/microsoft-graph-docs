@@ -63,3 +63,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete contact.",
+  "tocPath": "/beta reference/Personal contact/contact/Delete contact",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/contact_delete"
+} -->

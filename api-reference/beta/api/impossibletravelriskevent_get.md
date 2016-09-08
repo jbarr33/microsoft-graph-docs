@@ -72,3 +72,13 @@ Content-length: 260
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve an impossibleTravelRiskEvent object.",
+  "tocPath": "/beta reference/Identity Protection/Identity Risk Events/Get impossibleTravelRiskEvent",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

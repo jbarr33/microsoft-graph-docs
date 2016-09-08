@@ -63,3 +63,12 @@ Content-length: 208
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of extensionproperty object.",
+  "tocPath": "/beta reference/Directory/extension property/Get extensionProperty",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

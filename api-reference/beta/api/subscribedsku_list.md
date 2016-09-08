@@ -76,3 +76,12 @@ Content-length: 547
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of subscribedsku objects.",
+  "tocPath": "/beta reference/Directory/subscribed sku/List subscribedSkus",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/subscribedsku_list"
+} -->

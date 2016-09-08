@@ -85,3 +85,13 @@ Content-length: 456
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/v1.0 reference/OneDrive/driveitem/Get thumbnailSet",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

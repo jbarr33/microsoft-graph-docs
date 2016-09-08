@@ -64,3 +64,12 @@ HTTP/1.1 204 OK
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of directoryrole object.",
+  "tocPath": "/beta reference/Directory/directory setting/Update setting",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

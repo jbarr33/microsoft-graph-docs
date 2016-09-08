@@ -271,3 +271,12 @@ include the matching extended property.
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to get message with single-value property.",
+  "tocPath": "/beta reference/Outlook Mail/message/Get message with single-value property",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

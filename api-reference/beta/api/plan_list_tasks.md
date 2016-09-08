@@ -85,3 +85,12 @@ Content-length: 772
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of task objects.",
+  "tocPath": "/beta reference/Tasks/plan/List plan tasks",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

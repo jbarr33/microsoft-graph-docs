@@ -97,3 +97,13 @@ Content-length: 248
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Message.",
+  "tocPath": "/beta reference/Users/mail/Create message",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/user_post_messages"
+} -->

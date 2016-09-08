@@ -64,3 +64,12 @@ None.
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "An image or other file resource on a OneNote page.",
+  "tocPath": "/beta reference/OneNote/resources",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

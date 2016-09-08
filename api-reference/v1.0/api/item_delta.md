@@ -212,3 +212,13 @@ driveItem properties:
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/v1.0 reference/OneDrive/driveitem/Track changes",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

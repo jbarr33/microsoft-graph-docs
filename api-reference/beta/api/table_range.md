@@ -64,3 +64,13 @@ Content-length: 169
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/beta reference/Excel/table/Get range",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/table_range"
+} -->

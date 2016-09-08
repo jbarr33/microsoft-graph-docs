@@ -70,3 +70,13 @@ Content-length: 104
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new ContactFolder.",
+  "tocPath": "/beta reference/Personal contact/contact folder/Create child folder",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/contactfolder_post_childfolders"
+} -->

@@ -87,3 +87,12 @@ Content-length: 211
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of group object.",
+  "tocPath": "/beta reference/Groups/group/Update group",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/group_update"
+} -->

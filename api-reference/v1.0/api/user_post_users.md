@@ -114,3 +114,13 @@ Content-length: 551
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new User.",
+  "tocPath": "/v1.0 reference/Users/user/Create user",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

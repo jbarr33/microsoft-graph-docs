@@ -59,3 +59,13 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": "OneDrive/Item/Delete item"
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete item.",
+  "tocPath": "/v1.0 reference/OneDrive/driveitem/Delete item",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

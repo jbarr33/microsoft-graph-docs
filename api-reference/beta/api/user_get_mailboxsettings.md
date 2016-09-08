@@ -142,3 +142,12 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/beta reference/Users/mail/Get auto reply settings",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -61,3 +61,12 @@ Content-length: 55
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of directoryobject objects.",
+  "tocPath": "/beta reference/Directory/directory role/List members",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/directoryrole_list_members"
+} -->

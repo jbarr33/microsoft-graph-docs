@@ -74,3 +74,12 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "List the overrides for a sender identified by an SMTP address.",
+  "tocPath": "/beta reference/Users/mail/List Overrides",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/inferenceclassification_list_overrides"
+} -->

@@ -83,3 +83,13 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Contact.",
+  "tocPath": "/beta reference/Users/contacts/Create contact",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/user_post_contacts"
+} -->

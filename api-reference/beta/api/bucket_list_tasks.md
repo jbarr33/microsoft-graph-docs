@@ -83,3 +83,12 @@ Content-length: 772
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of task objects.",
+  "tocPath": "/beta reference/Tasks/bucket/List bucket tasks",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -68,3 +68,12 @@ Content-length: 3
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/v1.0 reference/Excel/chart/Get chart image",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

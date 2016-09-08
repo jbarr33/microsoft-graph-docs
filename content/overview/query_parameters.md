@@ -167,3 +167,13 @@ GET  https://graph.microsoft.com/v1.0/me/contacts?$count=true
 which would return both the **contacts** collection, and the number of items in the **contacts** collection in the `@odata.id` property.
 
 Note: This is not supported for [directoryObject](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/directoryobject) collections.
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Microsoft Graph is OData v4 compliant, provides information about supported OData query parameters",
+  "tocPath": "Overview/Query parameters",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

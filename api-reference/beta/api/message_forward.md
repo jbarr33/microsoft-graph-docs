@@ -88,3 +88,13 @@ HTTP/1.1 202 Accepted
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/beta reference/Outlook Mail/message/Forward messages",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/message_forward"
+} -->

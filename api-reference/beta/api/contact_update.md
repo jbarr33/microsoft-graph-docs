@@ -176,3 +176,12 @@ Content-length: 1977
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of contact object.",
+  "tocPath": "/beta reference/Personal contact/contact/Update contact",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/contact_update"
+} -->

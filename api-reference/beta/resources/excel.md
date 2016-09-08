@@ -1236,3 +1236,13 @@ Content-Type: application/json
 }
 ```
 [top](#excel-rest-api)
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/beta reference/Excel",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/resources/excel"
+} -->

@@ -76,3 +76,12 @@ To get the updated object, use the `Prefer` header. See Request Headers above.
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of taskdetails object.",
+  "tocPath": "/beta reference/Tasks/task details/Update taskdetails",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

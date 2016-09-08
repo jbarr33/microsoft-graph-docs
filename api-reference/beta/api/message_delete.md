@@ -52,3 +52,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete message.",
+  "tocPath": "/beta reference/Outlook Mail/message/Delete message",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/message_delete"
+} -->

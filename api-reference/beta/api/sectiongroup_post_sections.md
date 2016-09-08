@@ -79,3 +79,12 @@ Content-length: 272
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Create a new section(../resources/section.md) in the specified notebook.",
+  "tocPath": "/beta reference/OneNote/section groups/Create section",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

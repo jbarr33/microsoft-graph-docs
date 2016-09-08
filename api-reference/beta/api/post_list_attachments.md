@@ -82,3 +82,13 @@ Content-length: 215
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of attachment objects.",
+  "tocPath": "/beta reference/Groups/post/List attachments",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/post_list_attachments"
+} -->

@@ -55,3 +55,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete a privilegedRoleAssignment objects.",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role Assignment/Delete role assignment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -106,3 +106,13 @@ Content-Type: application/json
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new children.",
+  "tocPath": "/v1.0 reference/OneDrive/driveitem/Create item",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

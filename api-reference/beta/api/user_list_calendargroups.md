@@ -65,3 +65,13 @@ Content-length: 155
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of calendargroup objects.",
+  "tocPath": "/beta reference/Users/calendar/List calendar groups",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/user_list_calendargroups"
+} -->

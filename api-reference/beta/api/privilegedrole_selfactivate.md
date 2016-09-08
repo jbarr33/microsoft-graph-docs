@@ -83,3 +83,12 @@ Content-length: 184
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Self activate role assignment.",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role/Self role activate",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

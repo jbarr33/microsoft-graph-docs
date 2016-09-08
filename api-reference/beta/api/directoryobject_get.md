@@ -55,3 +55,12 @@ Content-length: 22
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of directoryobject object.",
+  "tocPath": "/beta reference/Directory/directory object/Get directoryObject",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/directoryobject_get"
+} -->

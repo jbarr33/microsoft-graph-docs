@@ -63,3 +63,13 @@ Content-length: 187
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of directoryrole objects.",
+  "tocPath": "/beta reference/Directory/directory role/List directoryRoles",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/directoryrole_list"
+} -->

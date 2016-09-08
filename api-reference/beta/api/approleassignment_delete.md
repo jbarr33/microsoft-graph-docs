@@ -52,3 +52,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete appRoleAssignment.",
+  "tocPath": "/beta reference/Directory/app role assignment/Delete appRoleAssignment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

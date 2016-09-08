@@ -55,3 +55,12 @@ Here is a JSON representation of the resource.
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Privileged AAD Role Object",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

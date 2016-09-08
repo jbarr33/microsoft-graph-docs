@@ -130,3 +130,13 @@ When receiving notifications from Drive subscriptions the resourceData will be n
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/beta reference/Webhooks/Subscription/Create subscription",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/subscription_post_subscriptions"
+} -->

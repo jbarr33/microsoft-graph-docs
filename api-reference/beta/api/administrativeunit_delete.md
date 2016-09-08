@@ -51,3 +51,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API to delete an administrativeUnit object.",
+  "tocPath": "/beta reference/Directory/Administrative Unit/Delete administrative unit",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

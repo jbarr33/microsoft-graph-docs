@@ -503,3 +503,13 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of opentypeextension object.",
+  "tocPath": "/beta reference/Data Extensions/opentypeextension/Create openTypeExtension",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/opentypeextension_post_opentypeextension"
+} -->

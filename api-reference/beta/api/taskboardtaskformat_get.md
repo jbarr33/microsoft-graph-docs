@@ -63,3 +63,12 @@ Content-length: 80
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of taskboardtaskformat object.",
+  "tocPath": "/beta reference/Tasks/taskboard task format/Get taskBoardTaskFormat",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

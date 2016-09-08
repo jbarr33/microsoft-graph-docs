@@ -180,3 +180,13 @@ checked out (SharePoint only).
   "section": "documentation",
   "tocPath": "OneDrive/Item/Create sharing link"
 } -->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/beta reference/OneDrive/driveitem/Create sharing link",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/item_createlink"
+} -->

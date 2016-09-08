@@ -72,3 +72,13 @@ Here is a JSON representation of the resource.
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Audit event from Privileged Identity Management",
+  "tocPath": "/beta reference/Privileged Identity Management/Audit Event",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -70,3 +70,13 @@ Content-length: 110
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of calendargroup object.",
+  "tocPath": "/beta reference/Outlook Calendar/calendar group/Update calendar group",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/calendargroup_update"
+} -->

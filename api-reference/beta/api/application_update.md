@@ -140,3 +140,12 @@ Content-length: 636
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of application object.",
+  "tocPath": "/beta reference/Directory/application/Update application",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

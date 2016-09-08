@@ -62,3 +62,13 @@ Here is a JSON representation of the resource
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "A calendar which is a container for events.",
+  "tocPath": "/v1.0 reference/Outlook Calendar",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

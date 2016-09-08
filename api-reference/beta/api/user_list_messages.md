@@ -70,3 +70,13 @@ Content-length: 317
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of message objects.",
+  "tocPath": "/beta reference/Users/mail/List messages",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/user_list_messages"
+} -->

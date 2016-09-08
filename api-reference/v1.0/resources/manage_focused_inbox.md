@@ -33,3 +33,13 @@ including the Inbox.
 
 [Create an override for a sender](../api/inferenceclassification_post_overrides.md) | [List all user overrides](../api/inferenceclassification_list_overrides.md) | 
 [Update an override for a sender](../api/inferenceclassificationoverride_update.md) | [Delete a sender override](../api/inferenceclassificationoverride_delete.md) 
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/v1.0 reference/Outlook Mail/Focused Inbox",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

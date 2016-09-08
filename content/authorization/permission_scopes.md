@@ -127,3 +127,13 @@ The following are some app scenarios using the `User` and `Group` resources and 
 - [Authenticate Microsoft Graph endpoints using the v2.0 app model preview](authenticate-MSGraph-using-v2.md )
 - [Hands on lab: Deep dive into the Office 365 unified API](http://dev.office.com/hands-on-labs/4585) -->
 
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "The Microsoft Graph API exposes OAuth 2.0 permission scopes that are used to control access that an app has to data. As a developer, you configure your app with the permission scopes appropriate to the access that it requires, typically by using the Azure portal.",
+  "tocPath": "Authorization/Permission scopes",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

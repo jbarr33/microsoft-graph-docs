@@ -89,3 +89,13 @@ Here is a JSON representation of the resource
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Represents a device registered in the directory. Inherits from DirectoryObject.",
+  "tocPath": "/beta reference/Directory/device",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/resources/device"
+} -->

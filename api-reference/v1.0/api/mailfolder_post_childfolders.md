@@ -80,3 +80,13 @@ Content-length: 179
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new MailFolder.",
+  "tocPath": "/v1.0 reference/Outlook Mail/mail folder/Create mail child folder",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -60,3 +60,13 @@ HTTP/1.1 200 OK
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of a file or image resource(../resources/resource.md) object.",
+  "tocPath": "/beta reference/OneNote/resources/Get resource",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -70,3 +70,13 @@ Content-length: 290
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of suspiciousIpRiskEvent objects.",
+  "tocPath": "/beta reference/Identity Protection/Identity Risk Events/List suspiciousIpRiskEvent",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

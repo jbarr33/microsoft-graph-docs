@@ -67,3 +67,12 @@ Content-length: 262
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of conversation objects.",
+  "tocPath": "/v1.0 reference/Groups/conversation/List conversations",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -80,3 +80,13 @@ Content-length: 285
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Event.",
+  "tocPath": "/beta reference/Groups/calendar/Create event",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/group_post_events"
+} -->

@@ -147,3 +147,12 @@ When a message is being composed, in most cases, the From and Sender properties 
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/beta reference/Users/mail",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/resources/message"
+} -->

@@ -56,3 +56,12 @@ Here is a JSON representation of the resource.
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Governs entity or feature behaviors, both at a tenant-wide level or at a specific entity level.",
+  "tocPath": "/beta reference/Directory/directory setting",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

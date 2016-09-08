@@ -68,3 +68,12 @@ Content-length: 269
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of extensionproperty objects.",
+  "tocPath": "/beta reference/Directory/application/List extension properties",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

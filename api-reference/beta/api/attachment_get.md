@@ -184,3 +184,13 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of attachment object.",
+  "tocPath": "/beta reference/Outlook Mail/attachment/Get attachment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/attachment_get"
+} -->

@@ -51,3 +51,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API to delete a scoped-role administrator from an administrativeUnit object.",
+  "tocPath": "/beta reference/Directory/Administrative Unit/Remove a scoped-role administrator",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

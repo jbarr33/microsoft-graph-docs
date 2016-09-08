@@ -59,3 +59,13 @@ Content-length: 104
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of contactfolder object.",
+  "tocPath": "/v1.0 reference/Personal contact/contact folder/Get contact folder",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

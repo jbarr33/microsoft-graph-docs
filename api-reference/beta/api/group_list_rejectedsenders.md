@@ -64,3 +64,12 @@ Content-length: 55
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of rejectedSenders.",
+  "tocPath": "/beta reference/Groups/conversation/List rejected senders",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/group_list_rejectedsenders"
+} -->

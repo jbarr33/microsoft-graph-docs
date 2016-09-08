@@ -79,3 +79,12 @@ Content-length: 184
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Mkae the role assignment as permanent.",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role Assignment/Make permanent role assignment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

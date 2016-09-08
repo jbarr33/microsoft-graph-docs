@@ -77,3 +77,13 @@ Content-length: 608
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of user objects.",
+  "tocPath": "/v1.0 reference/Users/user/List users",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

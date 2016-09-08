@@ -79,3 +79,12 @@ Content-length: 378
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of section groups(../resources/sectiongroup.md) from the specified notebook.",
+  "tocPath": "/beta reference/OneNote/notebooks/List section groups",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

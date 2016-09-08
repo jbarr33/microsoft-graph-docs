@@ -77,3 +77,13 @@ Content-length: 414
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of post object.",
+  "tocPath": "/beta reference/Groups/post/Get post",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/post_get"
+} -->

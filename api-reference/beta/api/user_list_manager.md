@@ -65,3 +65,13 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Get manager.",
+  "tocPath": "/beta reference/Users/org hierarchy/Get manager",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/user_list_manager"
+} -->

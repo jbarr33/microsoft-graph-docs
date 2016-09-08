@@ -82,3 +82,12 @@ Content-length: 369
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of notebook(../resources/notebook.md) objects.",
+  "tocPath": "/beta reference/Users/notes/List notebooks",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

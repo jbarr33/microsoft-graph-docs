@@ -164,3 +164,13 @@ if the Item is a [folder](folder.md).
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "The item resource represents an item contained in a drive, like a file or folder.",
+  "tocPath": "/beta reference/OneDrive/driveitem",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/resources/driveitem"
+} -->

@@ -67,3 +67,13 @@ Content-length: 248
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of message object.",
+  "tocPath": "/beta reference/Outlook Mail/message/Get message",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/message_get"
+} -->

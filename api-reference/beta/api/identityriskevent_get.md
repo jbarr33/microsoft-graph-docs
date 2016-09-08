@@ -67,3 +67,13 @@ Content-length: 251
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve an identityRiskEvent object.",
+  "tocPath": "/beta reference/Identity Protection/Identity Risk Events/Get identityRiskEvent",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

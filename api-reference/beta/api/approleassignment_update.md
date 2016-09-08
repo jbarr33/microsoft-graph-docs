@@ -81,3 +81,12 @@ Content-length: 253
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of approleassignment object.",
+  "tocPath": "/beta reference/Directory/app role assignment/Update approleassignment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

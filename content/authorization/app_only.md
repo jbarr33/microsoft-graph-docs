@@ -68,3 +68,13 @@ Authorization: Bearer <token>
 ```
 
 The Microsoft Graph is a very powerful, unifiying API that can be used to interact with all kinds of Microsoft data. Check out the [API reference](http://graph.microsoft.io/docs/api-reference/v1.0) to explore what else you can accomplish with the Microsoft Graph API.
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "Authorization/App-only",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

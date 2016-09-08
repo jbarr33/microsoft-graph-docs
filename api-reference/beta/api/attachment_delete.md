@@ -94,3 +94,13 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete attachment.",
+  "tocPath": "/beta reference/Outlook Mail/attachment/Delete attachment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/attachment_delete"
+} -->

@@ -35,3 +35,13 @@ The service is built on top of OData. To filter the results from the query, use 
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Azure Active Directory Privileged Identity Management",
+  "tocPath": "/beta reference/Privileged Identity Management",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

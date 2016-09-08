@@ -53,3 +53,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to delete a rejectedSender.",
+  "tocPath": "/beta reference/Groups/conversation/Delete rejected senders",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/group_delete_rejectedsenders"
+} -->

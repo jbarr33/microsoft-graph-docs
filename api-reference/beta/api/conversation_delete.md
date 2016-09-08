@@ -51,3 +51,13 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete conversation.",
+  "tocPath": "/beta reference/Groups/conversation/Delete group conversation",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/conversation_delete"
+} -->

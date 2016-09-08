@@ -66,3 +66,12 @@ Content-length: 184
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Self deactivate role assignment.",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role/Self role deactivate",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -67,3 +67,12 @@ Content-length: 153
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of plan objects.",
+  "tocPath": "/beta reference/Groups/plans/List plans",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -63,3 +63,12 @@ Content-length: 222
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of orgcontact object.",
+  "tocPath": "/beta reference/Organizational contacts/Contact/Get org contact",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

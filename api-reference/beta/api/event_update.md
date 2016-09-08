@@ -110,3 +110,13 @@ Content-length: 285
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of event object.",
+  "tocPath": "/beta reference/Outlook Calendar/event/Update event",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/event_update"
+} -->

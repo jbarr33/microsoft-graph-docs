@@ -81,3 +81,13 @@ HTTP/1.1 200 OK
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Tentatively accept events",
+  "tocPath": "/v1.0 reference/Outlook Calendar/event/Tentatively accept",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

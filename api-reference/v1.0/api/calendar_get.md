@@ -76,3 +76,13 @@ Content-length: 98
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of calendar object.",
+  "tocPath": "/v1.0 reference/Outlook Calendar/calendar/Get calendar",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

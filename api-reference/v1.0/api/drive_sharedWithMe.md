@@ -92,3 +92,13 @@ GET /drives/<remoteItem.parentReference.driveId>/items/<id>
   "section": "documentation",
   "tocPath": "OneDrive/Drive/Shared with me"
 } -->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Get shared with me files.",
+  "tocPath": "/v1.0 reference/OneDrive/drive/Shared with me",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

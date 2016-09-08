@@ -82,3 +82,13 @@ Content-length: 248
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Message.",
+  "tocPath": "/beta reference/Outlook Mail/mail folder/Create message in folder",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/mailfolder_post_messages"
+} -->

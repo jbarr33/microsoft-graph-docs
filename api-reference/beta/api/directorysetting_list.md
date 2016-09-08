@@ -71,3 +71,12 @@ Content-length: 263
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of directoryrole object.",
+  "tocPath": "/beta reference/Directory/directory setting/List setting",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

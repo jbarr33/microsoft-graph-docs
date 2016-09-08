@@ -71,3 +71,12 @@ Content-length: 343
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of directoryroletemplate objects.",
+  "tocPath": "/beta reference/Directory/directory setting template/List directorySettingTemplates",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

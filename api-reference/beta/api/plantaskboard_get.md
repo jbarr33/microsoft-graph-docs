@@ -62,3 +62,12 @@ Content-length: 46
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of plantaskboard object.",
+  "tocPath": "/beta reference/Tasks/plan taskboard/Get planTaskBoard",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

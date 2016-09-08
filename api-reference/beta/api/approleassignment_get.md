@@ -63,3 +63,12 @@ Content-length: 253
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of approleassignment object.",
+  "tocPath": "/beta reference/Directory/app role assignment/Get appRoleAssignment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

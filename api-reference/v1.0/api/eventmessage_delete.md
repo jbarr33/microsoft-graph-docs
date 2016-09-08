@@ -53,3 +53,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete eventMessage.",
+  "tocPath": "/v1.0 reference/Outlook Calendar/event message/Delete event message",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

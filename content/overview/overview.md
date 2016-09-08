@@ -54,3 +54,13 @@ The following diagram shows the Microsoft Graph developer stack and how it works
 
 
 
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Microsoft Graph allows applications to access digital work and digital life data across the intelligent Microsoft cloud. Big advantages for developers: A Unified Microsoft API endpoint for accessing data, intelligence and insights coming from the Microsoft cloud.",
+  "tocPath": "Overview",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

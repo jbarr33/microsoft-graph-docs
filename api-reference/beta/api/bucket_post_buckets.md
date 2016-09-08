@@ -72,3 +72,12 @@ Content-length: 108
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new bucket.",
+  "tocPath": "/beta reference/Tasks/bucket/Create bucket",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

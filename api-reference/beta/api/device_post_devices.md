@@ -87,3 +87,12 @@ Content-length: 364
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Device.",
+  "tocPath": "/beta reference/Directory/device/Create Device",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/device_post_devices"
+} -->

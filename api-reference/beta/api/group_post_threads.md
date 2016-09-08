@@ -101,3 +101,13 @@ Content-length: 419
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new thread.",
+  "tocPath": "/beta reference/Groups/conversation thread/Create thread",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/group_post_threads"
+} -->

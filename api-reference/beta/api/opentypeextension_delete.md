@@ -95,3 +95,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete openTypeExtension.",
+  "tocPath": "/beta reference/Data Extensions/opentypeextension/Delete openTypeExtension",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/opentypeextension_delete"
+} -->

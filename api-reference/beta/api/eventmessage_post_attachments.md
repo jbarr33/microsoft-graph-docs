@@ -94,3 +94,13 @@ HTTP 201 Created
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Attachment.",
+  "tocPath": "/beta reference/Outlook Calendar/event message/Create Attachment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/eventmessage_post_attachments"
+} -->

@@ -72,3 +72,12 @@ Content-length: 184
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Create a privilegedRoleAssignment objects.",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role Assignment/Create role assignments",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

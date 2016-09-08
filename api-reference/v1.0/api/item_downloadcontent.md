@@ -99,3 +99,13 @@ require the Authorization header.
   "section": "documentation",
   "tocPath": "OneDrive/Item/Download file"
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/v1.0 reference/OneDrive/driveitem/Download item",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

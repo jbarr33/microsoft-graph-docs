@@ -65,3 +65,12 @@ Content-length: 55
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of directoryobject objects.",
+  "tocPath": "/beta reference/Directory/device/List registeredUsers",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/device_list_registeredusers"
+} -->

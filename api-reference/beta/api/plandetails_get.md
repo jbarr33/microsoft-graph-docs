@@ -68,3 +68,12 @@ Content-length: 381
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of plandetails object.",
+  "tocPath": "/beta reference/Tasks/plan details/Get planDetails",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

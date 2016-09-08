@@ -72,3 +72,12 @@ Content-length: 305
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of a sectionGroup(../resources/sectiongroup.md) object.",
+  "tocPath": "/beta reference/OneNote/section groups/Get section group",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

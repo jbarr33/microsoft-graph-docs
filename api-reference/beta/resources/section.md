@@ -70,3 +70,13 @@ Here is a JSON representation of the resource.
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "A section in a OneNote notebook. Section can contain pages.",
+  "tocPath": "/beta reference/OneNote/sections",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

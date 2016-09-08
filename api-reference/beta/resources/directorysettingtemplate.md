@@ -53,3 +53,12 @@ Here is a JSON representation of the resource.
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Represents a directory role template. A directory role template specifies the property values of a directory role (DirectoryRole). There is an associated directory role template object for each of the directory roles that may be activated in a tenant.",
+  "tocPath": "/beta reference/Directory/directory setting template",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

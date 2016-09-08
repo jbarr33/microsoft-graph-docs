@@ -79,3 +79,12 @@ Content-length: 244
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of directoryrole objects.",
+  "tocPath": "/beta reference/Directory/directory setting/Create setting",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

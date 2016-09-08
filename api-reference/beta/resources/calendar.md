@@ -70,3 +70,13 @@ Here is a JSON representation of the resource
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "A calendar which is a container for events.",
+  "tocPath": "/beta reference/Outlook Calendar",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/resources/calendar"
+} -->

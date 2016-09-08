@@ -136,3 +136,13 @@ Content-length: 491
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of user object.",
+  "tocPath": "/beta reference/Users/user/Update user",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/user_update"
+} -->

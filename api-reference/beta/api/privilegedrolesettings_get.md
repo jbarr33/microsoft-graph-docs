@@ -64,3 +64,12 @@ Content-length: 228
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the setting for a role.",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role/Get role settings",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

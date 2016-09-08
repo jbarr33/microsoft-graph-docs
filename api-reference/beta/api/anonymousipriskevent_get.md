@@ -67,3 +67,13 @@ Content-length: 237
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve an anonymousIpRiskEvent object.",
+  "tocPath": "/beta reference/Identity Protection/Identity Risk Events/Get anonymousIpRiskEvent",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

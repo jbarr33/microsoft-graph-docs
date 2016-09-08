@@ -74,3 +74,13 @@ Content-length: 104
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of contactfolder object.",
+  "tocPath": "/beta reference/Personal contact/contact folder/Update contact folder",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/contactfolder_update"
+} -->

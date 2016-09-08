@@ -64,3 +64,12 @@ Content-length: 184
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Make the role assignment as eligible.",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role Assignment/Make eligible role assignment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

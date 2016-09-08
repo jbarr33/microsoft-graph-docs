@@ -64,3 +64,12 @@ Content-length: 55
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of directoryobject objects.",
+  "tocPath": "/v1.0 reference/Groups/group/List memberOf",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

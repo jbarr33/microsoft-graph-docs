@@ -48,3 +48,12 @@ Content-length: 226
   "webUrl": "webUrl-value",
 }
 ```
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of item objects.",
+  "tocPath": "/beta reference/Users/insights/List trendingAround",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

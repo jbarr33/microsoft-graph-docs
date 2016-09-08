@@ -80,3 +80,13 @@ Content-length: 100
   ]
 }
 ```
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API to list members from an administrativeUnit object.",
+  "tocPath": "/beta reference/Directory/Administrative Unit/List members",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

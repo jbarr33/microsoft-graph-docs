@@ -70,3 +70,12 @@ Content-length: 411
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of tenantdetail object.",
+  "tocPath": "/beta reference/Directory/organization/Get org details",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/organization_get"
+} -->

@@ -64,3 +64,13 @@ Here is a JSON representation of the resource
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "A group of calendars.",
+  "tocPath": "/beta reference/Outlook Calendar/calendar group",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/resources/calendargroup"
+} -->

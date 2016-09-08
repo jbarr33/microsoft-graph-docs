@@ -61,3 +61,13 @@ Content-length: 252
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of subscription.",
+  "tocPath": "/v1.0 reference/Webhooks/Subscription/Get subscription",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -112,3 +112,13 @@ Content-length: 215
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of referenceattachment object.",
+  "tocPath": "/beta reference/Outlook Mail/reference attachment/Get reference attachment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/referenceattachment_get"
+} -->

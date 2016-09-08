@@ -95,3 +95,12 @@ Content-length: 222
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of orgcontact object.",
+  "tocPath": "/beta reference/Organizational contacts/Contact/Update org contact",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

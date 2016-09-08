@@ -92,3 +92,13 @@ Content-length: xxx
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of group objects.",
+  "tocPath": "/v1.0 reference/Groups/group/List groups",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

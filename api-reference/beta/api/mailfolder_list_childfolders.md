@@ -68,3 +68,13 @@ Content-length: 232
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of mailfolder objects.",
+  "tocPath": "/beta reference/Outlook Mail/mail folder/List child folders",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/mailfolder_list_childfolders"
+} -->

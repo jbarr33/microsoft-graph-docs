@@ -232,3 +232,13 @@ Here is a JSON representation of the resource
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Represents an Azure AD user account. Inherits from DirectoryObject.",
+  "tocPath": "/beta reference/Users",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/resources/user"
+} -->

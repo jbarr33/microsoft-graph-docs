@@ -174,3 +174,13 @@ HTTP 201 Created
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Attachment.",
+  "tocPath": "/beta reference/Groups/post/Create attachment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/post_post_attachments"
+} -->

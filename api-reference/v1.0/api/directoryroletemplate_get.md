@@ -57,3 +57,13 @@ Content-length: 98
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of directoryroletemplate object.",
+  "tocPath": "/v1.0 reference/Directory/directory role template/Get directoryRoleTemplate",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

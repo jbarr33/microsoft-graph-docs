@@ -67,3 +67,12 @@ Content-length: 153
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of bucket objects.",
+  "tocPath": "/beta reference/Tasks/plan/List plan buckets",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

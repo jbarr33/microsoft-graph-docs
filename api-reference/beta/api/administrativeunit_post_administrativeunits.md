@@ -73,3 +73,12 @@ Content-length: 172
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API to create a new administrativeUnit.",
+  "tocPath": "/beta reference/Directory/Administrative Unit/Create administrative unit",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

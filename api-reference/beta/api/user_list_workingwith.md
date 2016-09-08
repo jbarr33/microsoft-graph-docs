@@ -46,3 +46,12 @@ Content-length: 98
   "Email": "Email-value",
 }
 ```
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of user objects.",
+  "tocPath": "/beta reference/Users/insights/List workingWith",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

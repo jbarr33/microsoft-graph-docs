@@ -61,3 +61,12 @@ Content-length: 137
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the summary data for a role.",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role/Get role summary",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

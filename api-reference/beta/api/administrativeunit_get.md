@@ -60,3 +60,12 @@ Content-length: 134
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API to get an administrativeUnit object.",
+  "tocPath": "/beta reference/Directory/Administrative Unit/Get administrative unit",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

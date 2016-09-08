@@ -75,3 +75,12 @@ Content-length: 284
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of a notebook(../resources/notebook.md) object.",
+  "tocPath": "/beta reference/OneNote/notebooks/Get notebook",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

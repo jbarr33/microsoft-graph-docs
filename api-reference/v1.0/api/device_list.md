@@ -72,3 +72,12 @@ Content-length: 399
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of device objects.",
+  "tocPath": "/v1.0 reference/Directory/device/List devices",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

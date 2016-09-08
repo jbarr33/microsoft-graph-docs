@@ -64,3 +64,13 @@ Content-length: 145
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of contactfolder objects.",
+  "tocPath": "/v1.0 reference/Personal contact/contact folder/List child folders",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

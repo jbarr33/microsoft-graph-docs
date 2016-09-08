@@ -91,3 +91,13 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": "OneDrive/Item/Update permission"
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of permission object.",
+  "tocPath": "/beta reference/OneDrive/driveitem/Update permission",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/permission_update"
+} -->

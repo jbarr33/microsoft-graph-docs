@@ -71,3 +71,12 @@ Content-length: 450
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of subscribedsku object.",
+  "tocPath": "/v1.0 reference/Directory/subscribed sku/Get subscribedSku",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -81,3 +81,12 @@ Content-length: 208
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of extensionproperty object.",
+  "tocPath": "/beta reference/Directory/extension property/Update extensionproperty",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

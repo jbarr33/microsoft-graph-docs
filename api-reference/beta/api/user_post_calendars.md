@@ -72,3 +72,12 @@ Content-length: 98
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Calendar.",
+  "tocPath": "/beta reference/Users/calendar/Create calendar",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/user_post_calendars"
+} -->

@@ -128,3 +128,13 @@ to expand the children collection.
   "section": "documentation",
   "tocPath": "OneDrive/Drive/Get special folder"
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Get special folders.",
+  "tocPath": "/beta reference/OneDrive/drive/Special folders",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/drive_special"
+} -->

@@ -62,3 +62,12 @@ Content-length: 46
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a privilegedRole object.",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role/Get privileged role",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

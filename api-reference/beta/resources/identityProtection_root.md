@@ -18,3 +18,12 @@
 |[Get suspiciousIpRiskEvent](../api/suspiciousipriskevent_get.md) |[suspiciousIpRiskEvent](suspiciousipriskevent.md)| Get suspiciousIpRiskEvent object. |
 |[List unfamiliarLocationRiskEvent](../api/unfamiliarlocationriskevent_get.md) |[unfamiliarLocationRiskEvent](unfamiliarlocationriskevent.md)| Get unfamiliarLocationRiskEvent collection. |
 |[Get unfamiliarLocationRiskEvent](../api/unfamiliarlocationriskevent_get.md) |[unfamiliarLocationRiskEvent](unfamiliarlocationriskevent.md)| Get unfamiliarLocationRiskEvent object. |
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API for querying data from and using Azure Active Directory Identity Protection",
+  "tocPath": "/beta reference/Identity Protection",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

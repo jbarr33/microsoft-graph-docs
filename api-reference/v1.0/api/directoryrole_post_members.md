@@ -67,3 +67,12 @@ Content-length: 51
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new member.",
+  "tocPath": "/v1.0 reference/Directory/directory role/Add member",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

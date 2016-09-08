@@ -51,3 +51,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete mailFolder.",
+  "tocPath": "/beta reference/Outlook Mail/mail folder/Delete mail folder",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/mailfolder_delete"
+} -->

@@ -71,3 +71,12 @@ Content-length: 307
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of scoped adminstrator membership objects.",
+  "tocPath": "/beta reference/Users/directory objects/List scoped administrator memberships",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -106,3 +106,13 @@ Yes. For more information see [Authenticate Microsoft Graph endpoints using the 
 
 
 
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Answers to some frequently-asked questions about the Microsoft Graph.",
+  "tocPath": "Overview/FAQs",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

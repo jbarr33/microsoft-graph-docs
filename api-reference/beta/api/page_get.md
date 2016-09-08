@@ -78,3 +78,12 @@ Content-length: 312
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of a page(../resources/page.md) object.",
+  "tocPath": "/beta reference/OneNote/pages/Get page",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

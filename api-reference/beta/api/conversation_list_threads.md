@@ -84,3 +84,13 @@ Content-length: 536
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of conversationthread objects.",
+  "tocPath": "/beta reference/Groups/conversation/List conversation threads",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/conversation_list_threads"
+} -->

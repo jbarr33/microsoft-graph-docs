@@ -122,3 +122,13 @@ Content-length: 717
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Application.",
+  "tocPath": "/beta reference/Directory/application/Create Application",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

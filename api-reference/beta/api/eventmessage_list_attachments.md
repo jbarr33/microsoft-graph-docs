@@ -72,3 +72,12 @@ Content-length: 215
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of attachment objects.",
+  "tocPath": "/beta reference/Outlook Calendar/event message/List attachments",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/eventmessage_list_attachments"
+} -->

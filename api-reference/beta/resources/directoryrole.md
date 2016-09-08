@@ -63,3 +63,13 @@ Here is a JSON representation of the resource
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Represents an Azure AD directory role. Azure AD directory roles are also known as administrator roles. For more information about directory (administrator) roles, see Assigning administrator roles in Azure AD(http://azure.microsoft.com/documentation/articles/active-directory-assign-admin-roles/).",
+  "tocPath": "/beta reference/Directory/directory role",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/resources/directoryrole"
+} -->

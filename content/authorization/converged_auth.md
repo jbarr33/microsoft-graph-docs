@@ -67,3 +67,13 @@ The table below lists the authentication scopes to use with the converged authen
 [Limitations and restrictions in the v2 authentication model](https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-limitations/)
 
 [Microsoft Azure v2 authentication endpoint documentation](https://azure.microsoft.com/en-us/documentation/articles/?service=active-directory&term=app+model+v2.0)
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "The v2 authentication endpoint enables you to create apps that accept both work and school (Azure AD) as well as personal (Microsoft account) identities.",
+  "tocPath": "Authorization/v2 auth endpoint",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

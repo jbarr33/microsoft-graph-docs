@@ -101,3 +101,13 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": "OneDrive/Items/Search items"
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/beta reference/OneDrive/driveitem/Search items",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/item_search"
+} -->

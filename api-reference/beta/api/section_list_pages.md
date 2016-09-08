@@ -73,3 +73,12 @@ Content-length: 393
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of page(../resources/page.md) objects from the specified section.",
+  "tocPath": "/beta reference/OneNote/sections/List pages",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

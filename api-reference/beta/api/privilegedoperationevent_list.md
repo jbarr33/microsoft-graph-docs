@@ -124,3 +124,12 @@ Content-length: 547
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of audit events.",
+  "tocPath": "/beta reference/Privileged Identity Management/Audit Event/List audit events",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

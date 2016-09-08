@@ -68,3 +68,13 @@ Content-length: 232
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of mailfolder objects.",
+  "tocPath": "/beta reference/Users/mail/List mail folders",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/user_list_mailfolders"
+} -->

@@ -61,3 +61,12 @@ Content-length: 55
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of directoryobject objects.",
+  "tocPath": "/beta reference/Directory/application/List owners",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

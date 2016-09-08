@@ -96,3 +96,13 @@ Content-length: 285
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Event.",
+  "tocPath": "/v1.0 reference/Outlook Calendar/calendar/Create Event",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

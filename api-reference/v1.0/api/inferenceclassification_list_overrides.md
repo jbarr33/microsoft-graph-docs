@@ -75,3 +75,12 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "List the overrides for a sender identified by an SMTP address.",
+  "tocPath": "/v1.0 reference/Users/mail/List Overrides",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

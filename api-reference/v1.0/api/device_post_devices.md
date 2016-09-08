@@ -87,3 +87,12 @@ Content-length: 364
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Device.",
+  "tocPath": "/v1.0 reference/Directory/device/Create Device",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -72,3 +72,12 @@ Here is a JSON representation of the resource.
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Queries risk event data from Azure AD Identity Protection",
+  "tocPath": "/beta reference/Identity Protection/Identity Risk Events",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

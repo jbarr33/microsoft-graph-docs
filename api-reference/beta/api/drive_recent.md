@@ -92,3 +92,13 @@ GET /drives/<remoteItem.driveId>/items/<id>
   "section": "documentation",
   "tocPath": "OneDrive/Drive/Shared with me"
 } -->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Get recent files.",
+  "tocPath": "/beta reference/OneDrive/drive/Recent files",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/drive_recent"
+} -->

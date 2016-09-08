@@ -47,3 +47,13 @@ The following Microsoft Graph features are also available in preview (on the `/b
 * Applications
 * Service Principals
 * Directory schema extensions
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Sovereign deployments",
+  "tocPath": "Overview/Sovereign deployments",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

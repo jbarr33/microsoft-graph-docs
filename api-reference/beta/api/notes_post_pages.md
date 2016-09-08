@@ -111,3 +111,12 @@ Content-length: 312
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Create a new OneNote page in the default section of the default notebook.",
+  "tocPath": "/beta reference/OneNote/notes/Create page",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

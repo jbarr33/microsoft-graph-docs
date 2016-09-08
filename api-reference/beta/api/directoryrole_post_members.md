@@ -67,3 +67,12 @@ Content-length: 51
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new member.",
+  "tocPath": "/beta reference/Directory/directory role/Add member",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/directoryrole_post_members"
+} -->

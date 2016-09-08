@@ -122,3 +122,13 @@ Content-length: 162
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new Attachment.",
+  "tocPath": "/v1.0 reference/Groups/post/Create attachment",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

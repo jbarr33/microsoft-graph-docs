@@ -215,3 +215,13 @@ time, so it is important that all apps be able to handle the basic error codes i
 
 - [Microsoft Graph API release notes and known issues](microsoft-graph-api-release-notes-known-issues.md )
 - [Hands on lab: Deep dive into the Microsoft Graph API](http://dev.office.com/hands-on-labs/4585) -->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Errors in the Microsoft Graph API service are returned using standard HTTP status codes, as well as a JSON error response object.",
+  "tocPath": "Overview/Errors",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

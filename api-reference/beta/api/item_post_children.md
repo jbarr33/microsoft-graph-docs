@@ -108,3 +108,13 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": "OneDrive/Item/Create folder"
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new children.",
+  "tocPath": "/beta reference/OneDrive/driveitem/Create item",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/item_post_children"
+} -->

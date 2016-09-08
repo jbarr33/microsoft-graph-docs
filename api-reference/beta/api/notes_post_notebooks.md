@@ -82,3 +82,12 @@ Content-length: 284
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Create a new OneNote notebook(../resources/notebook.md).",
+  "tocPath": "/beta reference/Users/notes/Create notebook",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

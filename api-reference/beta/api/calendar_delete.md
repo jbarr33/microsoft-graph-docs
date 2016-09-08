@@ -60,3 +60,13 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete calendar.",
+  "tocPath": "/beta reference/Outlook Calendar/calendar/Delete calendar",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/calendar_delete"
+} -->

@@ -82,3 +82,13 @@ If you don't have an existing Office 365 for business account, you can:
 	    
 	You should now see all items in your Azure subscription. It lists a directory with the name of your Office 365 tenant.
 	
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use the management portal in Microsoft Azure to manage users, roles, and apps for Office 365.",
+  "tocPath": "Authorization/Associate Office 365 account",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

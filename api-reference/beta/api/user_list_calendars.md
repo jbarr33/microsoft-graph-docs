@@ -82,3 +82,12 @@ Content-length: 147
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of calendar objects.",
+  "tocPath": "/beta reference/Users/calendar/List calendars",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/user_list_calendars"
+} -->

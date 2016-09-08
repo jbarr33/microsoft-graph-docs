@@ -95,3 +95,13 @@ Content-length: 354
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of event objects.",
+  "tocPath": "/beta reference/Outlook Calendar/event/List event instances",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/event_list_instances"
+} -->

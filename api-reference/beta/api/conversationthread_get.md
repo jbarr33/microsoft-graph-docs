@@ -81,3 +81,13 @@ Content-length: 419
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of conversationthread object.",
+  "tocPath": "/beta reference/Groups/conversation thread/Get conversation thread",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/conversationthread_get"
+} -->

@@ -71,3 +71,13 @@ Content-length: 263
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of contact objects.",
+  "tocPath": "/beta reference/Personal contact/contact folder/List contacts in folder",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/contactfolder_list_contacts"
+} -->

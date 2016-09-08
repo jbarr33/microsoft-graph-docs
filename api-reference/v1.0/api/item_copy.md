@@ -74,3 +74,13 @@ copy action has completed.
   "section": "documentation",
   "tocPath": "OneDrive/Item/Copy"
 } -->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "/v1.0 reference/OneDrive/driveitem/Copy item",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

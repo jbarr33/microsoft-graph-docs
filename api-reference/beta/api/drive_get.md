@@ -89,3 +89,13 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": "OneDrive/Drive/Get Drive"
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of drive object.",
+  "tocPath": "/beta reference/Users/drive/Get drive",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/drive_get"
+} -->

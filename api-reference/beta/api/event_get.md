@@ -112,3 +112,13 @@ Content-length: 285
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of event object.",
+  "tocPath": "/beta reference/Outlook Calendar/event/Get event",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/event_get"
+} -->

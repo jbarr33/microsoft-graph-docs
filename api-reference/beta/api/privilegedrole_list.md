@@ -67,3 +67,12 @@ Content-length: 83
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of privilegedRole objects.",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role/List privileged roles",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

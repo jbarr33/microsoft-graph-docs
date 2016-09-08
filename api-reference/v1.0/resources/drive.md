@@ -69,3 +69,13 @@ Here is a JSON representation of the resource.
   "section": "documentation",
   "tocPath": "OneDrive/Drive"
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Drive API",
+  "tocPath": "/v1.0 reference/Users/drive",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -262,3 +262,13 @@ To see the newly created extended property, [get the message expanded with the e
 
 
 
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to Create multi-value extended property.",
+  "tocPath": "/beta reference/Outlook Mail/message/Create multi-value extended property",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

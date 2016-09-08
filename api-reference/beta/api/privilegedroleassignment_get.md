@@ -63,3 +63,12 @@ Content-length: 184
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a privilegedRoleAssignment object.",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role Assignment/Get role assignment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

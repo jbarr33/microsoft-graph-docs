@@ -72,3 +72,13 @@ Content-length: 290
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of unfamiliarLocationRiskEvent objects.",
+  "tocPath": "/beta reference/Identity Protection/Identity Risk Events/List unfamiliarLocationRiskEvent",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

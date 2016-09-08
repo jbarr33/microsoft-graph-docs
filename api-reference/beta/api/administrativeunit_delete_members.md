@@ -35,3 +35,13 @@ Here is an example of the response.
 ```http
 HTTP/1.1 204 No Content
 ```
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API to delete a member from an administrativeUnit object.",
+  "tocPath": "/beta reference/Directory/Administrative Unit/Remove a member",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

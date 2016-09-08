@@ -31,3 +31,13 @@ The following restrictions apply to paged requests:
 - The default page size is 100. The maximum page size is 999.
 - Queries against roles do not support paging. This includes reading role objects themselves as well as role members.
 - Paging is not supported for link searches, such as for querying group members.
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Implementing paging in the Microsoft Graph",
+  "tocPath": "Overview/Paging",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

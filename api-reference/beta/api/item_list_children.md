@@ -86,3 +86,13 @@ You can control the page size through [optional query string parameters](https:/
   "section": "documentation",
   "tocPath": "OneDrive/DriveItem/List children"
 } -->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a list of item objects.",
+  "tocPath": "/beta reference/Users/drive/List children",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/item_list_children"
+} -->

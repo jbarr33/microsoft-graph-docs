@@ -58,3 +58,13 @@ Content-length: 142
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of directoryrole object.",
+  "tocPath": "/beta reference/Directory/directory role/Get directoryRole",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/directoryrole_get"
+} -->

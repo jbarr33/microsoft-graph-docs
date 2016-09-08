@@ -108,3 +108,13 @@ Content-length: 162
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of itemattachment object.",
+  "tocPath": "/beta reference/Outlook Mail/item attachment/Get item attachment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/itemattachment_get"
+} -->

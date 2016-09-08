@@ -157,3 +157,13 @@ GET https://graph.microsoft.com/beta/users('nestork@contoso.com')/people/
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of person object.",
+  "tocPath": "/beta reference/People/person/Get person",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

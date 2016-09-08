@@ -134,3 +134,13 @@ Content-Type: application/json
   "section": "documentation",
   "tocPath": "OneDrive/Item/Get item"
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of item object.",
+  "tocPath": "/beta reference/OneDrive/driveitem/Get item",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/item_get"
+} -->

@@ -46,3 +46,12 @@ Content-length: 100
   "displayName":"Demo User"
 }
 ```
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API to get a member from an administrativeUnit object.",
+  "tocPath": "/beta reference/Directory/Administrative Unit/Get a member",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

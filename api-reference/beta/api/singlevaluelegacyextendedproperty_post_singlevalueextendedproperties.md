@@ -250,3 +250,13 @@ To see the newly created extended property, [get the message expanded with the e
   "tocPath": ""
 }-->
 
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create single-value extended property.",
+  "tocPath": "/beta reference/Outlook Mail/message/Create single-value extended property",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

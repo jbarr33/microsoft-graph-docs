@@ -92,3 +92,13 @@ Content-length: 419
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of conversationthread object.",
+  "tocPath": "/beta reference/Groups/conversation thread/Update conversation thread",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/conversationthread_update"
+} -->

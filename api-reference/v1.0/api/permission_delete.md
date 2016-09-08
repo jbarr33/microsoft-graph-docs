@@ -67,3 +67,13 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": "OneDrive/Item/Delete permission"
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete permission.",
+  "tocPath": "/v1.0 reference/OneDrive/driveitem/Delete permission",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -52,3 +52,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete oAuth2PermissionGrant.",
+  "tocPath": "/beta reference/Directory/oauth2 permission grant/Delete oauth2 permission grant",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

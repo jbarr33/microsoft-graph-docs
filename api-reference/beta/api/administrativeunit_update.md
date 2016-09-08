@@ -64,3 +64,12 @@ HTTP/1.1 204 No content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API to get an administrativeUnit object.",
+  "tocPath": "/beta reference/Directory/Administrative Unit/Update administrative unit",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

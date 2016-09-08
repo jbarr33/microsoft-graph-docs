@@ -63,3 +63,12 @@ Here is a JSON representation of the resource.
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Privileged Role Assignment objects",
+  "tocPath": "/beta reference/Privileged Identity Management/Privileged Role Assignment",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

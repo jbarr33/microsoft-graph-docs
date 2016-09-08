@@ -175,3 +175,12 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to Get message with multi-value property.",
+  "tocPath": "/beta reference/Outlook Mail/message/Get message with multi-value property",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

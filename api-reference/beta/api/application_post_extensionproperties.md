@@ -81,3 +81,12 @@ Content-length: 253
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new ExtensionProperty.",
+  "tocPath": "/beta reference/Directory/application/Create extension property",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

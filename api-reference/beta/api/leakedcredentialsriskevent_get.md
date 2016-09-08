@@ -64,3 +64,13 @@ Content-length: 251
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve a leakedCredentialsRiskEvent object.",
+  "tocPath": "/beta reference/Identity Protection/Identity Risk Events/Get leakedCredentialsRiskEvent",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

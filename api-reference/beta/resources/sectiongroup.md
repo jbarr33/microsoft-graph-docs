@@ -72,3 +72,12 @@ Here is a JSON representation of the resource.
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "A section group in a OneNote notebook. Section groups can contain sections and section groups.",
+  "tocPath": "/beta reference/OneNote/section groups",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

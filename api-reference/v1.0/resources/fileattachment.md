@@ -70,3 +70,13 @@ Here is a JSON representation of the resource
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "A file (such as a text file or Word document) attached to a message or event. The  ContentBytes property contains the base64-encoded contents of the file.",
+  "tocPath": "/v1.0 reference/Outlook Mail/file attachment",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

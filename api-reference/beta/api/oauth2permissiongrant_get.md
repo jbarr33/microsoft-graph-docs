@@ -63,3 +63,12 @@ Content-length: 200
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of oauth2permissiongrant object.",
+  "tocPath": "/beta reference/Directory/oauth2 permission grant/Get oauth2 permission grant",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

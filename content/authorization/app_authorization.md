@@ -215,3 +215,13 @@ Instead, you must restart the [app authorization and authentication](#msg_get_ap
 
 - [Hands on lab: Deep dive into the Office 365 unified API](http://dev.office.com/hands-on-labs/4585)  -->
 
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "",
+  "tocPath": "Authorization",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

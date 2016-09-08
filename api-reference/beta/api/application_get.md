@@ -84,3 +84,12 @@ Content-length: 636
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Retrieve the properties and relationships of application object.",
+  "tocPath": "/beta reference/Directory/application/Get application",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

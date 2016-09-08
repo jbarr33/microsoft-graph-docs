@@ -72,3 +72,13 @@ Content-length: 179
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of mailfolder object.",
+  "tocPath": "/v1.0 reference/Outlook Mail/mail folder/Update mail folder",
+  "apiVersion": "v1.0",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

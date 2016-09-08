@@ -239,3 +239,13 @@ Content-Type: application/json
   "section": "documentation",
   "tocPath": ""
 } -->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Update the properties of opentypeextension object.",
+  "tocPath": "/beta reference/Data Extensions/opentypeextension/Update opentypeextension",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/opentypeextension_update"
+} -->

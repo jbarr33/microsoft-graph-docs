@@ -80,3 +80,12 @@ Content-type: application/json
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Create an override for a sender identified by an SMTP address.",
+  "tocPath": "/beta reference/Users/mail/Create Override",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/inferenceclassification_post_overrides"
+} -->

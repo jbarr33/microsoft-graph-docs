@@ -67,3 +67,12 @@ Content-length: 51
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Use this API to create a new owner.",
+  "tocPath": "/beta reference/Directory/application/Assign owner",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -51,3 +51,12 @@ HTTP/1.1 204 No Content
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Delete an override for a sender identified by an SMTP address.",
+  "tocPath": "/beta reference/Outlook Mail/Focused Inbox/Delete Override",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/api/inferenceclassificationoverride_delete"
+} -->

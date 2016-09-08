@@ -103,3 +103,12 @@ Content-length: 312
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Create a new page(../resources/page.md) in the specified section.",
+  "tocPath": "/beta reference/OneNote/sections/Create page",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

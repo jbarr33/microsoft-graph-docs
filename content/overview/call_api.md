@@ -298,3 +298,13 @@ The request payload contains the input to the `microsoft.graph.sendMail` action,
 With a single unified endpoint, the Microsoft Graph simplifies the application programming interface for services in the Microsoft cloud. As a result, the boundaries of the otherwise silo-ed services disappear. As an app developer, you are no longer required to keep track of the data sources and to implement custom interfaces between various data sources. 
 
 
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Answers to some frequently-asked questions about the Microsoft Graph.",
+  "tocPath": "Overview/Call the API",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

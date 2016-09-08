@@ -76,3 +76,12 @@ Content-length: 294
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API to add a scoped-role administrator to an administrativeUnit object.",
+  "tocPath": "/beta reference/Directory/Administrative Unit/Add a scoped-role administrator",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

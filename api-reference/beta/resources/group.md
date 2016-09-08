@@ -166,3 +166,13 @@ Here is a JSON representation of the resource
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Represents an Azure Active Directory Group. Inherited from DirectoryObject.",
+  "tocPath": "/beta reference/Groups",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": "/en-us/api-reference/v1.0/resources/group"
+} -->

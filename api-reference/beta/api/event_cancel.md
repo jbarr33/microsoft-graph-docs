@@ -86,3 +86,13 @@ HTTP/1.1 202 Accepted
   "section": "documentation",
   "tocPath": ""
 }-->
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "Cancel event.",
+  "tocPath": "/beta reference/Outlook Calendar/event/Cancel event",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

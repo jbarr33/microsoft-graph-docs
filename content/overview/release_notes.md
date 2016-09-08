@@ -151,3 +151,13 @@ Additionally there are the following `/beta` limitations:
   
              .
 
+
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "New features for developers that are available in the November 2015 release of the Microsoft Graph API, as well as any known issues.",
+  "tocPath": "Overview/Release notes",
+  "apiVersion": "",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->

@@ -65,3 +65,12 @@ Content-length: 179
   "section": "documentation",
   "tocPath": ""
 }-->
+
+<!-- {
+  "type": "#page.annotation",
+  "description": "API to list administrativeUnit objects.",
+  "tocPath": "/beta reference/Directory/Administrative Unit/List administrative unit",
+  "apiVersion": "beta",
+  "section": "documentation",
+  "canonicalURL": ""
+} -->
