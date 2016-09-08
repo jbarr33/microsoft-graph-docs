@@ -183,7 +183,7 @@ Repeat for other notifications in the request.
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Webhooks",
+  "tocPath": "Webhooks",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

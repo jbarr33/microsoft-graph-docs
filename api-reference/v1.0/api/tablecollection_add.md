@@ -80,7 +80,7 @@ Content-length: 109
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/table/Add table",
+  "tocPath": "Excel/table/Add table",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

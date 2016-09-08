@@ -100,7 +100,7 @@ Content-length: 491
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Users/directory objects/Assign license",
+  "tocPath": "Users/directory objects/Assign license",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

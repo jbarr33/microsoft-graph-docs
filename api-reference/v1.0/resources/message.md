@@ -139,7 +139,7 @@ Here is a JSON representation of the resource
 <!-- {
   "type": "#page.annotation",
   "description": "Mail API",
-  "tocPath": "/v1.0 reference/Users/mail",
+  "tocPath": "Users/mail",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

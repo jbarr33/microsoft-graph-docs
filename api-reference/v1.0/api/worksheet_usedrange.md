@@ -78,7 +78,7 @@ Content-length: 169
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/worksheet/Get usedrange",
+  "tocPath": "Excel/worksheet/Get usedrange",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

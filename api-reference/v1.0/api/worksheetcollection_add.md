@@ -76,7 +76,7 @@ Content-length: 100
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/worksheet/Add worksheet",
+  "tocPath": "Excel/worksheet/Add worksheet",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

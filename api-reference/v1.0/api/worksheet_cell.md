@@ -82,7 +82,7 @@ Content-length: 169
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/worksheet/Get cell",
+  "tocPath": "Excel/worksheet/Get cell",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

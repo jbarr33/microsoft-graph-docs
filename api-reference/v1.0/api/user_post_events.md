@@ -93,7 +93,7 @@ Content-length: 285
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new Event.",
-  "tocPath": "/v1.0 reference/Users/calendar/Create event",
+  "tocPath": "Users/calendar/Create event",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

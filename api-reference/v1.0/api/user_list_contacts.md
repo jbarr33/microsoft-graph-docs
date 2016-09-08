@@ -71,7 +71,7 @@ Content-length: 263
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of contact objects.",
-  "tocPath": "/v1.0 reference/Users/contacts/List contacts",
+  "tocPath": "Users/contacts/List contacts",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

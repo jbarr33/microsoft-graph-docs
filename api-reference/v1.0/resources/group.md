@@ -155,7 +155,7 @@ Here is a JSON representation of the resource
 <!-- {
   "type": "#page.annotation",
   "description": "Groups API",
-  "tocPath": "/v1.0 reference/Users/groups",
+  "tocPath": "Users/groups",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

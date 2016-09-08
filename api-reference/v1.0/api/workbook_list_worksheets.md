@@ -69,7 +69,7 @@ Content-length: 145
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/workbook/List worksheets",
+  "tocPath": "Excel/workbook/List worksheets",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

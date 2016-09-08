@@ -141,7 +141,7 @@ Content-length: 491
 <!-- {
   "type": "#page.annotation",
   "description": "Update the properties of user object.",
-  "tocPath": "/v1.0 reference/Users/user/Update user",
+  "tocPath": "Users/user/Update user",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

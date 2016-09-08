@@ -81,7 +81,7 @@ Content-length: 179
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new MailFolder.",
-  "tocPath": "/v1.0 reference/Users/mail/Create mail folder",
+  "tocPath": "Users/mail/Create mail folder",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

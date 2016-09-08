@@ -77,7 +77,7 @@ Content-length: 491
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve the properties and relationships of user object.",
-  "tocPath": "/v1.0 reference/Users/user/Get user",
+  "tocPath": "Users/user/Get user",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

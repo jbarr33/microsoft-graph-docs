@@ -54,7 +54,7 @@ Here is a JSON representation of the resource
 <!-- {
   "type": "#page.annotation",
   "description": "Directory Objects API",
-  "tocPath": "/v1.0 reference/Users/directory objects",
+  "tocPath": "Users/directory objects",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

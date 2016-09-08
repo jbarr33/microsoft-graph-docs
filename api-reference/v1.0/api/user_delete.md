@@ -55,7 +55,7 @@ HTTP/1.1 204 No Content
 <!-- {
   "type": "#page.annotation",
   "description": "Delete user.",
-  "tocPath": "/v1.0 reference/Users/user/Delete user",
+  "tocPath": "Users/user/Delete user",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

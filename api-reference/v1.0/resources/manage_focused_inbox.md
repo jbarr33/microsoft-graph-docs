@@ -38,7 +38,7 @@ including the Inbox.
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Outlook Mail/Focused Inbox",
+  "tocPath": "Outlook Mail/Focused Inbox",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

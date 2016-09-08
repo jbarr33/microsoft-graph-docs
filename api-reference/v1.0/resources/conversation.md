@@ -70,7 +70,7 @@ Here is a JSON representation of the resource
 <!-- {
   "type": "#page.annotation",
   "description": "Conversation",
-  "tocPath": "/v1.0 reference/Groups/conversation",
+  "tocPath": "Groups/conversation",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

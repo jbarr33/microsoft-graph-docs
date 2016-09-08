@@ -153,7 +153,7 @@ HTTP/1.1 202 Accepted
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Users/mail/Send mail",
+  "tocPath": "Users/mail/Send mail",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

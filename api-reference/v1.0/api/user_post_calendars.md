@@ -77,7 +77,7 @@ Content-length: 98
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new Calendar.",
-  "tocPath": "/v1.0 reference/Users/calendar/Create calendar",
+  "tocPath": "Users/calendar/Create calendar",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

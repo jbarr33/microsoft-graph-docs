@@ -67,7 +67,7 @@ Content-length: 55
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of directoryobject objects.",
-  "tocPath": "/v1.0 reference/Users/directory objects/List registered devices",
+  "tocPath": "Users/directory objects/List registered devices",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

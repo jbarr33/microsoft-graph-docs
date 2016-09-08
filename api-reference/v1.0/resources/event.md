@@ -141,7 +141,7 @@ Here is a JSON representation of the resource
 <!-- {
   "type": "#page.annotation",
   "description": "Calendar API",
-  "tocPath": "/v1.0 reference/Users/calendar",
+  "tocPath": "Users/calendar",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

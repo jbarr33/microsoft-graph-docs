@@ -74,7 +74,7 @@ Content-length: 110
 <!-- {
   "type": "#page.annotation",
   "description": "Use this API to create a new CalendarGroup.",
-  "tocPath": "/v1.0 reference/Users/calendar/Create calendar group",
+  "tocPath": "Users/calendar/Create calendar group",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

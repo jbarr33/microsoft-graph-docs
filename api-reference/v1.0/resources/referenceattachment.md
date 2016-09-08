@@ -66,7 +66,7 @@ Here is a JSON representation of the resource
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Outlook Mail/reference attachment",
+  "tocPath": "Outlook Mail/reference attachment",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

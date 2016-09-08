@@ -35,7 +35,7 @@ None
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/workbook",
+  "tocPath": "Excel/workbook",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

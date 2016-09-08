@@ -70,7 +70,7 @@ Content-length: 155
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of calendargroup objects.",
-  "tocPath": "/v1.0 reference/Users/calendar/List calendar groups",
+  "tocPath": "Users/calendar/List calendar groups",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

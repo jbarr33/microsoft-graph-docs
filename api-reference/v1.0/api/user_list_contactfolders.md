@@ -68,7 +68,7 @@ Content-length: 145
 <!-- {
   "type": "#page.annotation",
   "description": "Retrieve a list of contactfolder objects.",
-  "tocPath": "/v1.0 reference/Users/contacts/List contact folders",
+  "tocPath": "Users/contacts/List contact folders",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

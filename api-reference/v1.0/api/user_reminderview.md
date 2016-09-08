@@ -99,7 +99,7 @@ Content-length: 673
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Users/calendar/Reminder view",
+  "tocPath": "Users/calendar/Reminder view",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

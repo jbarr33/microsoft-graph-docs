@@ -70,7 +70,7 @@ Content-length: 158
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/workbook/List tables",
+  "tocPath": "Excel/workbook/List tables",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

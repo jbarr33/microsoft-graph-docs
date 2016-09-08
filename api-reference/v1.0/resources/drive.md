@@ -74,7 +74,7 @@ Here is a JSON representation of the resource.
 <!-- {
   "type": "#page.annotation",
   "description": "Drive API",
-  "tocPath": "/v1.0 reference/Users/drive",
+  "tocPath": "Users/drive",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

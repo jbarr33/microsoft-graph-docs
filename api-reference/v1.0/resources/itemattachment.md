@@ -63,7 +63,7 @@ Here is a JSON representation of the resource
 <!-- {
   "type": "#page.annotation",
   "description": "A message or event that attached to another message or event.",
-  "tocPath": "/v1.0 reference/Outlook Mail/item attachment",
+  "tocPath": "Outlook Mail/item attachment",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

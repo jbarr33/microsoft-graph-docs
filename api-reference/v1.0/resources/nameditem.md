@@ -59,7 +59,7 @@ Here is a JSON representation of the resource.
 <!-- {
   "type": "#page.annotation",
   "description": "",
-  "tocPath": "/v1.0 reference/Excel/nameditem",
+  "tocPath": "Excel/nameditem",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""

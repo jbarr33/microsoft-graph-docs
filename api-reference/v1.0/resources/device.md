@@ -94,7 +94,7 @@ Here is a JSON representation of the resource
 <!-- {
   "type": "#page.annotation",
   "description": "Represents a device registered in the directory. Inherits from DirectoryObject.",
-  "tocPath": "/v1.0 reference/Directory/device",
+  "tocPath": "Directory/device",
   "apiVersion": "v1.0",
   "section": "documentation",
   "canonicalURL": ""
