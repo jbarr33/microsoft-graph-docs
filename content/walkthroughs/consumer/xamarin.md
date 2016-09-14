@@ -1,6 +1,6 @@
 # Call Microsoft Graph in a Xamarin Forms app
 
-This article describes the tasks required to get an access token from the [v2 authentication endpoint](https://graph.microsoft.io/en-us/docs/authorization/converged_auth) and call the Microsoft Graph. It walks you through the code inside the [Microsoft Graph Connect Sample for Xamarin Forms](https://github.com/microsoftgraph/xamarin-csharp-connect-sample) sample to explain the main concepts that you have to implement in an app that uses Microsoft Graph. The article also describes how to access the Microsoft Graph by using the [Microsoft Graph Client Library](http://www.nuget.org/packages/Microsoft.Graph/).
+This article describes the tasks required to get an access token from the [v2.0 authentication endpoint](https://graph.microsoft.io/en-us/docs/authorization/converged_auth) and call Microsoft Graph. It walks you through the code inside the [Microsoft Graph Connect Sample for Xamarin Forms](https://github.com/microsoftgraph/xamarin-csharp-connect-sample) sample to explain the main concepts that you have to implement in an app that uses Microsoft Graph. The article also describes how to access Microsoft Graph by using the [Microsoft Graph Client Library](http://www.nuget.org/packages/Microsoft.Graph/).
 
 This is the app you'll create.
 
@@ -63,7 +63,7 @@ IdentityClientApp = new PublicClientApplication(ClientID);
 
 ## Install the Microsoft Authentication Library (MSAL)
 
-The [Microsoft Authentication Library](https://www.nuget.org/packages/Microsoft.Identity.Client) contains classes and methods that make it easy to authenticate users through the v2 authentication endpoint.
+The [Microsoft Authentication Library](https://www.nuget.org/packages/Microsoft.Identity.Client) contains classes and methods that make it easy to authenticate users through the v2.0 authentication endpoint.
 
 1. In the Solution Explorer right-click the **XamarinConnect (Portable)** project and select **Manage NuGet Packages...**
 2. Click Browse and search for Microsoft.Identity.Client.
@@ -146,7 +146,7 @@ The `Signout` method signs out all users logged in through the `PublicClientAppl
 
 **GetAuthenticatedClient**
 
-Finally, you'll need a method that creates a `GraphServicesClient`. This method  creates a client that uses the `GetTokenForUserAsync` method for every call through the client to the Microsoft Graph.
+Finally, you'll need a method that creates a `GraphServicesClient`. This method  creates a client that uses the `GetTokenForUserAsync` method for every call through the client to Microsoft Graph.
 
 ```c#
         public static GraphServiceClient GetAuthenticatedClient()
@@ -177,7 +177,7 @@ Finally, you'll need a method that creates a `GraphServicesClient`. This method 
         }
 ```
 
-## Send an email with the Microsoft Graph
+## Send an email with Microsoft Graph
 
 Open the MailHelper.cs file in your starter project. This file contains the code that constructs and sends an email. It consists of a single method -- ``ComposeAndSendMailAsync`` -- that constructs and sends a POST request to the **https://graph.microsoft.com/v1.0/me/microsoft.graph.SendMail** endpoint. 
 
