@@ -29,7 +29,7 @@ To follow along with this walkthrough, you'll need:
 
 - A [Microsoft account](https://www.outlook.com/) or an [Office 365 for business account](https://msdn.microsoft.com/en-us/office/office365/howto/setup-development-environment#bk_Office365Account)
 - Visual Studio 2015 
-- The [Microsoft Graph Connect Starter Project for Windows 10](https://github.com/microsoftgraph/uwp-connect-starter). This template contains several empty classes that you'll add code to. It also contains complete views and resource strings.
+- Either the [Microsoft Graph Starter Project for UWP (Library)](https://github.com/microsoftgraph/uwp-csharp-connect-sample/tree/master/starter) or the [Microsoft Graph Starter Project for UWP (REST)](https://github.com/microsoftgraph/uwp-csharp-connect-rest-sample/tree/master/starter). Both templates contain empty classes that you'll add code to. They also contains resource strings. To get either or both of these projects, clone or download the [Microsoft Graph Connect Sample for UWP (Library)](https://github.com/microsoftgraph/uwp-csharp-connect-sample) and/or the [Microsoft Graph Connect Sample for UWP (REST)](https://github.com/microsoftgraph/uwp-csharp-connect-rest-sample) and then open the solution inside the **starter** folder.
 
 
 ## Register the app
@@ -57,9 +57,9 @@ To follow along with this walkthrough, you'll need:
 ```xml
     <Application.Resources>
         <!-- Add your Client Id here. -->
-        <x:String x:Key="ida:ClientID"><the application ID of your registered app></x:String>
+        <x:String x:Key="ida:ClientID">ENTER_YOUR_CLIENT_ID</x:String>
 		<!-- Add your Redirect URI here. -->
-        <x:String x:Key="ida:ReturnUrl"><the redirect URI of your registered app></x:String>
+        <x:String x:Key="ida:ReturnUrl">ENTER_YOUR_REDIRECT_URI</x:String>
     </Application.Resources>
 ```
 
@@ -67,7 +67,7 @@ To follow along with this walkthrough, you'll need:
 
 The [Microsoft Authentication Library](https://www.nuget.org/packages/Microsoft.Identity.Client) contains classes and methods that make it easy to authenticate users through the v2 authentication endpoint.
 
-1. In the Solution Explorer right-click the **Microsoft-Graph-UWP-Connect** project and select **Manage NuGet Packages...**
+1. In the Solution Explorer right-click the project name and select **Manage NuGet Packages...**
 2. Click Browse and search for Microsoft.Identity.Client.
 3. Select the latest version of the Microsoft Authentication Library and click **Install**.
 
@@ -75,7 +75,7 @@ The [Microsoft Authentication Library](https://www.nuget.org/packages/Microsoft.
 
 > **Note** If you're going to use raw REST calls to access the Microsoft Graph, you can skip this section.
 
-1. In the Solution Explorer right-click the **Microsoft-Graph-UWP-Connect** project and select **Manage NuGet Packages...**
+1. In the Solution Explorer right-click the project name and select **Manage NuGet Packages...**
 2. Click Browse and search for Microsoft.Graph.
 3. Select the latest version of the Microsoft Graph Client Library and click **Install**.
 
@@ -503,11 +503,7 @@ Now that you've written the code that does all the work of authenticating the us
 
 The MainPage.xaml file in your starter project already includes all of the XAML you'll need. All you need to do is add the code that drives the interface to the MainPage.xaml.cs file. Locate this file in your project and open it.
 
-This file already contains all of the `using` declarations required for both the client library and REST versions of the sample. Note that if you're using the client library, you won't need this last declaration:
-
-```c#
-using Windows.Storage;
-```
+This file already contains all of the `using` declarations required for both the client library and REST versions of the sample.
 
 ***Client library version***
 
