@@ -54,14 +54,7 @@ In this step, you'll register an app on the Microsoft App Registration Portal. T
 
 2. Open the project's Web.config file.
 
-3. Locate the app configuration keys in the **appSettings** element. Replace the application ID and secret placeholders with the values you just copied.
-
- ```xml
-<!--app configuration-->
-<add key="ida:AppId" value="ENTER_YOUR_APP_ID" />
-<add key="ida:AppSecret" value="ENTER_YOUR_APP_SECRET" />
-  ...
-  ```
+3. Locate the app configuration keys in the **appSettings** element. Replace the ENTER_YOUR_CLIENT_ID and ENTER_YOUR_SECRET placeholder values with the values you just copied.
 
 The redirect URI is the SSL URL of the project that you registered. The requested [permission scopes](https://graph.microsoft.io/en-us/docs/authorization/permission_scopes) allow the app to get user profile information and send an email.
 
@@ -83,10 +76,10 @@ The app uses the [ASP.Net OpenID Connect OWIN middleware](https://www.nuget.org/
     
 The starter project already declares the following middleware and MSAL NuGet dependencies:
 
-    - Microsoft.Owin.Security.OpenIdConnect
-    - Microsoft.Owin.Security.Cookies
-    - Microsoft.Owin.Host.SystemWeb
-    - Microsoft.Identity.Client -Pre
+  - Microsoft.Owin.Security.OpenIdConnect
+  - Microsoft.Owin.Security.Cookies
+  - Microsoft.Owin.Host.SystemWeb
+  - Microsoft.Identity.Client -Pre
 
 Now back to building the app.
 
@@ -159,7 +152,7 @@ Now back to building the app.
   
   The MSAL **ConfidentialClientApplication** object represents the app and handles token management tasks. It's initialized with **SessionTokenCache** (the sample token cache implementation defined in TokenStorage/SessionTokenCache.cs) where it stores token information. The cache saves tokens in the current HTTP session based on user ID, but a production application will likely use more persistent storage.
 
-Now you'll implement a sample auth provider, which is designed to be easily replaced with your own custom auth provider. The interface and provider class have already been added to the project.
+Now you'll add code to the sample auth provider, which is designed to be easily replaced with your own custom auth provider. The interface and provider class have already been added to the project.
 
 1. In the **Helpers** folder, open SampleAuthProvider.cs.
 
@@ -205,7 +198,7 @@ Next you'll add code to handle signing and signing out from the UI.
 
 1. In the **Controllers** folder, open AccountController.cs.  
 
-1. Add the following methods. The **SignIn** method signals the middleware to send an authorization request to Azure AD.
+1. Add the following methods to the **AccountController** class. The **SignIn** method signals the middleware to send an authorization request to Azure AD.
 
   ```c#
     public void SignIn()
@@ -250,7 +243,7 @@ If you're using the Microsoft Graph library, read on. If you're using REST, jump
 In this step, you'll focus on the **SDKHelper**, **GraphService**, and **HomeController** classes. 
 
  - **SDKHelper** intializes an instance of the **GraphServiceClient** from the library before each call to the Microsoft Graph. This is when the access token is added to the request. 
- - **GraphService** builds and sends requests to the Microsoft Graph using the library and processes the responses.
+ - **GraphService** builds and sends requests to the Microsoft Graph using the library, and processes the responses.
  - **HomeController** contains actions that initiate the calls to the library in response to UI events.
 
 The starter project already declares a dependency for the Microsoft Graph .NET Client Library NuGet package:  *Microsoft.Graph*.
@@ -265,7 +258,7 @@ The starter project already declares a dependency for the Microsoft Graph .NET C
     using System.Net.Http.Headers;
     using Microsoft.Graph;
 
-    namespace Microsoft_Graph_ASPNET_Connect.Helpers
+    namespace Microsoft_Graph_SDK_ASPNET_Connect.Helpers
     {
         public class SDKHelper
         {   
@@ -591,7 +584,7 @@ using System.Text;
     using System;
     using System.Collections.Generic;
 
-    namespace Microsoft_Graph_ASPNET_Connect.Models
+    namespace Microsoft_Graph_SDK_ASPNET_Connect.Models
     {
         public class UserInfo
         {
