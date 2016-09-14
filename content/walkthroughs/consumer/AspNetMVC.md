@@ -10,7 +10,7 @@ The Azure AD [v2.0 endpoint](https://azure.microsoft.com/en-us/documentation/art
 
 >MSAL is currently in prerelease, and as such should not be used in production code. It is used here for illustrative purposes only. 
 
-**Don't feel like building an app?** Get up and running fast using the [Quick Start](xxx), or download the [Microsoft Graph Connect Sample for ASP.NET 4.6](https://github.com/microsoftgraph/aspnet-connect-sample) that this walkthrough is based on.
+**Don't feel like building an app?** Get up and running fast using the [Quick Start](xxx).
 
 
 ## Prerequisites
@@ -19,7 +19,7 @@ To follow along with this walkthrough, you'll need:
 
 - A [Microsoft account](https://www.outlook.com/) or an [Office 365 for business account](https://msdn.microsoft.com/en-us/office/office365/howto/setup-development-environment#bk_Office365Account)
 - Visual Studio 2015 
-- The [Microsoft Graph Connect Starter Project for ASP.NET 4.6](https://github.com/microsoftgraph/aspnet-connect-starter). The project was created using the ASP.NET Web Application > MVC template with No Authentication. It contains additional shell classes that you'll add code to, as well as some complete classes and views.
+- The [Microsoft Graph Connect Sample for ASP.NET 4.6](https://github.com/microsoftgraph/aspnet-connect-sample). You'll use the **starter-project** folder in the sample files for this walkthrough.
 
 
 ## Register the application
@@ -60,8 +60,7 @@ In this step, you'll register an app on the Microsoft App Registration Portal. T
 <!--app configuration-->
 <add key="ida:AppId" value="ENTER_YOUR_APP_ID" />
 <add key="ida:AppSecret" value="ENTER_YOUR_APP_SECRET" />
-<add key="ida:RedirectUri" value="https://localhost:44300/" />
-<add key="ida:GraphScopes" value="User.Read Mail.Send" />
+  ...
   ```
 
 The redirect URI is the SSL URL of the project that you registered. The requested [permission scopes](https://graph.microsoft.io/en-us/docs/authorization/permission_scopes) allow the app to get user profile information and send an email.
@@ -82,14 +81,14 @@ The auth flow can be broken down into these basic steps:
 
 The app uses the [ASP.Net OpenID Connect OWIN middleware](https://www.nuget.org/packages/Microsoft.Owin.Security.OpenIdConnect/) and the [Microsoft Authentication Library (MSAL) for .NET](https://www.nuget.org/packages/Microsoft.Identity.Client) for sign in and token management. These handle most auth tasks for you.
     
-Now back to building the app.
-
-1. Run **Build** > **Build Solution** to restore the project dependencies. The starter project already declares the following middleware and MSAL NuGet dependencies:
+The starter project already declares the following middleware and MSAL NuGet dependencies:
 
     - Microsoft.Owin.Security.OpenIdConnect
     - Microsoft.Owin.Security.Cookies
     - Microsoft.Owin.Host.SystemWeb
     - Microsoft.Identity.Client -Pre
+
+Now back to building the app.
 
 1. In the **App_Start** folder, open Startup.Auth.cs. 
 
@@ -206,41 +205,38 @@ Next you'll add code to handle signing and signing out from the UI.
 
 1. In the **Controllers** folder, open AccountController.cs.  
 
-1. Replace the class with the following code. The **Sign in** method signals the middleware to send an authorization request to Azure AD.
+1. Add the following methods. The **SignIn** method signals the middleware to send an authorization request to Azure AD.
 
   ```c#
-    public class AccountController : Controller
+    public void SignIn()
     {
-        public void SignIn()
+        if (!Request.IsAuthenticated)
         {
-            if (!Request.IsAuthenticated)
-            {
-                // Signal OWIN to send an authorization request to Azure.
-                HttpContext.GetOwinContext().Authentication.Challenge(
-                new AuthenticationProperties { RedirectUri = "/" },
-                OpenIdConnectAuthenticationDefaults.AuthenticationType);
-            }
+            // Signal OWIN to send an authorization request to Azure.
+            HttpContext.GetOwinContext().Authentication.Challenge(
+            new AuthenticationProperties { RedirectUri = "/" },
+            OpenIdConnectAuthenticationDefaults.AuthenticationType);
+        }
+    }
+
+    // Here we just clear the token cache, sign out the GraphServiceClient, and end the session with the web app.  
+    public void SignOut()
+    {
+        if (Request.IsAuthenticated)
+        {
+            // Get the user's token cache and clear it.
+            string userObjectId = ClaimsPrincipal.Current.FindFirst(ClaimTypes.NameIdentifier).Value;
+
+            SessionTokenCache tokenCache = new SessionTokenCache(userObjectId, HttpContext);
+            tokenCache.Clear(userObjectId);
         }
 
-        // Here we just clear the token cache, sign out the GraphServiceClient, and end the session with the web app.  
-        public void SignOut()
-        {
-            if (Request.IsAuthenticated)
-            {
-                // Get the user's token cache and clear it.
-                string userObjectId = ClaimsPrincipal.Current.FindFirst(ClaimTypes.NameIdentifier).Value;
+        //SDKHelper.SignOutClient();
 
-                SessionTokenCache tokenCache = new SessionTokenCache(userObjectId, HttpContext);
-                tokenCache.Clear(userObjectId);
-            }
-            
-            //SDKHelper.SignOutClient();
-
-            // Send an OpenID Connect sign-out request. 
-            HttpContext.GetOwinContext().Authentication.SignOut(
-            CookieAuthenticationDefaults.AuthenticationType);
-            Response.Redirect("/");
-        }
+        // Send an OpenID Connect sign-out request. 
+        HttpContext.GetOwinContext().Authentication.SignOut(
+        CookieAuthenticationDefaults.AuthenticationType);
+        Response.Redirect("/");
     }
   ```
 
@@ -251,17 +247,13 @@ Now you're ready to add code to call the Microsoft Graph.
 If you're using the Microsoft Graph library, read on. If you're using REST, jump to the [Using the REST API](#using-the-rest-api) section.
 
 ### Using the library
-In this step, you'll install the Microsoft Graph library and focus on the **SDKHelper**, **GraphService**, and **HomeController** classes. 
+In this step, you'll focus on the **SDKHelper**, **GraphService**, and **HomeController** classes. 
 
  - **SDKHelper** intializes an instance of the **GraphServiceClient** from the library before each call to the Microsoft Graph. This is when the access token is added to the request. 
  - **GraphService** builds and sends requests to the Microsoft Graph using the library and processes the responses.
  - **HomeController** contains actions that initiate the calls to the library in response to UI events.
 
-1. Open **Tools** > **Nuget Package Manager** > **Package Manager Console**, and run the following command.
-
-  ```
-Install-Package Microsoft.Graph
-  ```
+The starter project already declares a dependency for the Microsoft Graph .NET Client Library NuGet package:  *Microsoft.Graph*.
 
 1. Right-click the **Helpers** folder and choose **Add** > **Class**. 
 
