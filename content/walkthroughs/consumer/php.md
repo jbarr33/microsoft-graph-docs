@@ -1,17 +1,17 @@
 # Get started with the Microsoft Graph in a PHP app
 
-This article describes the tasks required to get an access token from the v2 authentication endpoint and call the Microsoft Graph. It walks you through building the [Connect Sample for PHP](https://github.com/microsoftgraph/php-connect-rest-sample) and explains the main concepts that you implement to use the Microsoft Graph. The article also describes how to access the Microsoft Graph by using REST calls.
+This article describes the tasks required to get an access token from the v2.0 authentication endpoint and call  Microsoft Graph. It walks you through building the [Connect Sample for PHP](https://github.com/microsoftgraph/php-connect-rest-sample) and explains the main concepts that you implement to use Microsoft Graph. The article also describes how to access Microsoft Graph by using REST calls.
 
-This article shows how to perform specific tasks that you need to follow to use the Microsoft Graph in your PHP app. For example, you need to show the Microsoft sign in page to your users. Here's a screenshot of the sign in page for Microsoft accounts invoked by an app.
+To use Microsoft Graph in your PHP app, you need to show the Microsoft sign in page to your users. The following screenshot shows a sign in page for Microsoft accounts.
 
 ![Sign in page for Microsoft accounts](images/MicrosoftSignIn.png)
 
-**Don't feel like building an app?** Get up and running fast downloading the [Connect Sample for PHP](https://github.com/microsoftgraph/php-connect-rest-sample) that this walkthrough is based on.
+**Don't feel like building an app?** Get up and running fast by downloading the [Connect Sample for PHP](https://github.com/microsoftgraph/php-connect-rest-sample) that this article is based on.
 
 
 ## Prerequisites
 
-To follow along with this walkthrough, you'll need: 
+To get started, you'll need: 
 
 - A [Microsoft account](https://www.outlook.com/) or an [Office 365 for business account](http://dev.office.com/devprogram)
 - PHP version 5.5.9 or greater
