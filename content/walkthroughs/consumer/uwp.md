@@ -1,6 +1,6 @@
 # Call Microsoft Graph in a universal Windows 10 app
 
-This article describes the tasks required to get an access token from the [v2 authentication endpoint](https://graph.microsoft.io/en-us/docs/authorization/converged_auth) and call the Microsoft Graph. It walks you through the code inside the [Microsoft Graph Connect Sample for UWP (REST)](https://github.com/microsoftgraph/uwp-csharp-connect-rest-sample) and [Microsoft Graph Connect Sample for UWP (Library)](https://github.com/microsoftgraph/uwp-csharp-connect-sample) samples to explain the main concepts that you have to implement in an app that uses Microsoft Graph. The article also describes how to access the Microsoft Graph by using both raw REST calls and the [Microsoft Graph Client Library](http://www.nuget.org/packages/Microsoft.Graph/).
+This article describes the tasks required to get an access token from the [v2.0 authentication endpoint](https://graph.microsoft.io/en-us/docs/authorization/converged_auth) and call Microsoft Graph. It walks you through the code inside the [Microsoft Graph Connect Sample for UWP (REST)](https://github.com/microsoftgraph/uwp-csharp-connect-rest-sample) and [Microsoft Graph Connect Sample for UWP (Library)](https://github.com/microsoftgraph/uwp-csharp-connect-sample) samples to explain the main concepts that you have to implement in an app that uses Microsoft Graph. The article also describes how to access Microsoft Graph by using both raw REST calls and the [Microsoft Graph Client Library](http://www.nuget.org/packages/Microsoft.Graph/).
 
 You can download both versions of the app that you'll create in this walkthrough from these GitHub repos:
 
@@ -65,7 +65,7 @@ To follow along with this walkthrough, you'll need:
 
 ## Install the Microsoft Authentication Library (MSAL)
 
-The [Microsoft Authentication Library](https://www.nuget.org/packages/Microsoft.Identity.Client) contains classes and methods that make it easy to authenticate users through the v2 authentication endpoint.
+The [Microsoft Authentication Library](https://www.nuget.org/packages/Microsoft.Identity.Client) contains classes and methods that make it easy to authenticate users through the v2.0 authentication endpoint.
 
 1. In the Solution Explorer right-click the project name and select **Manage NuGet Packages...**
 2. Click Browse and search for Microsoft.Identity.Client.
@@ -73,7 +73,7 @@ The [Microsoft Authentication Library](https://www.nuget.org/packages/Microsoft.
 
 ## Install the Microsoft Graph Client Library
 
-> **Note** If you're going to use raw REST calls to access the Microsoft Graph, you can skip this section.
+> **Note** If you're going to use raw REST calls to access Microsoft Graph, you can skip this section.
 
 1. In the Solution Explorer right-click the project name and select **Manage NuGet Packages...**
 2. Click Browse and search for Microsoft.Graph.
@@ -102,7 +102,7 @@ using Microsoft.Identity.Client;
 
 ***REST version***
 
-If you're using raw REST calls to access the Microsoft Graph, you'll need these `using` declarations in the AuthenticationHelper class:
+If you're using raw REST calls to access Microsoft Graph, you'll need these `using` declarations in the AuthenticationHelper class:
 
 ```c#
 using System;
@@ -256,7 +256,7 @@ This is the REST version of the `Signout` method.
 
 **GetAuthenticatedClient (client library only)**
 
-Finally, if you're using the client library, you'll need a method that creates a `GraphServicesClient`. This method  creates a client that uses the `GetTokenForUserAsync` method for every call through the client to the Microsoft Graph.
+Finally, if you're using the client library, you'll need a method that creates a `GraphServicesClient`. This method  creates a client that uses the `GetTokenForUserAsync` method for every call through the client to Microsoft Graph.
 
 ```c#
         public static GraphServiceClient GetAuthenticatedClient()
@@ -287,7 +287,7 @@ Finally, if you're using the client library, you'll need a method that creates a
         }
 ```
 
-## Send an email with the Microsoft Graph
+## Send an email with Microsoft Graph
 
 Open the MailHelper.cs file in your starter project. This file contains the code that constructs and sends an email. It consists of a single method -- ``ComposeAndSendMailAsync`` -- that constructs and sends a POST request to the **https://graph.microsoft.com/v1.0/me/microsoft.graph.SendMail** endpoint. 
 
@@ -499,7 +499,7 @@ The complete class will look like this:
 
 ##Create the user interface in MainPage.xaml
 
-Now that you've written the code that does all the work of authenticating the user and sending a message through the Microsoft Graph, all that you have to do is create the simple interface described above. 
+Now that you've written the code that does all the work of authenticating the user and sending a message through Microsoft Graph, all that you have to do is create the simple interface described above. 
 
 The MainPage.xaml file in your starter project already includes all of the XAML you'll need. All you need to do is add the code that drives the interface to the MainPage.xaml.cs file. Locate this file in your project and open it.
 
