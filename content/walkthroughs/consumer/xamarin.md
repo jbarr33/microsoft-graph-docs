@@ -1,6 +1,6 @@
 # Call Microsoft Graph in a Xamarin Forms app
 
-This article describes the tasks required to get an access token from the [v2 authentication endpoint](https://graph.microsoft.io/en-us/docs/authorization/converged_auth) and call the Microsoft Graph. It walks you through the code inside the [Microsoft Graph Connect Sample for Xamarin Forms](https://github.com/microsoftgraph/xamarin-csharp-connect-sample) sample to explain the main concepts that you have to implement in an app that uses Microsoft Graph. The article also describes how to access the Microsoft Graph by using the [Microsoft Graph Client Library](http://www.nuget.org/packages/Microsoft.Graph/).
+This article describes the tasks required to get an access token from the [v2.0 authentication endpoint](https://graph.microsoft.io/en-us/docs/authorization/converged_auth) and call Microsoft Graph. It walks you through the code inside the [Microsoft Graph Connect Sample for Xamarin Forms](https://github.com/microsoftgraph/xamarin-csharp-connect-sample) sample to explain the main concepts that you have to implement in an app that uses Microsoft Graph. The article also describes how to access Microsoft Graph by using the [Microsoft Graph Client Library](http://www.nuget.org/packages/Microsoft.Graph/).
 
 This is the app you'll create.
 
@@ -19,7 +19,7 @@ To follow along with this walkthrough, you'll need:
 - Visual Studio 2015 
 - [Xamarin for Visual Studio](https://www.xamarin.com/visual-studio)
 - Windows 10 ([development mode enabled](https://msdn.microsoft.com/library/windows/apps/xaml/dn706236.aspx))
-- The [Microsoft Graph Connect Starter Project for Xamarin Forms](https://github.com/microsoftgraph/xamarin-connect-starter). This template contains several empty classes that you'll add code to. It also contains complete views and resource strings.
+- The [Microsoft Graph Connect Starter Project for Xamarin Forms](https://github.com/microsoftgraph/xamarin-csharp-connect-sample/tree/master/starter). This template contains several classes that you'll add code to. It also contains complete views and resource strings. To get this project, clone or download the [Microsoft Graph Connect Sample for Xamarin Forms](https://github.com/microsoftgraph/xamarin-csharp-connect-sample) and open the **XamarinConnect** solution inside the **starter** folder. 
 
 If you want to run the iOS project in this sample, you'll need the following:
 
@@ -52,7 +52,7 @@ If you want to run the iOS project in this sample, you'll need the following:
 2. Open the **App.cs** file inside the **XamarinConnect (Portable)** project and locate the `ClientId` field. Replace the application ID placeholder with the application id of the app you registered.
 
 ```c#
-public static string ClientID = "<the application ID of your registered app>";
+public static string ClientID = "ENTER_YOUR_CLIENT_ID";
 public static string[] Scopes = { "User.Read", "Mail.Send" };
 ```
 The `Scopes` value stores the Microsoft Graph permission scopes that the app will need to request when the user authenticates. Note that the `App` class constructor uses the ClientID value to instantiate an instance of the MSAL `PublicClientApplication` class. You'll use this class later to authenticate the user.
@@ -63,11 +63,13 @@ IdentityClientApp = new PublicClientApplication(ClientID);
 
 ## Install the Microsoft Authentication Library (MSAL)
 
-The [Microsoft Authentication Library](https://www.nuget.org/packages/Microsoft.Identity.Client) contains classes and methods that make it easy to authenticate users through the v2 authentication endpoint.
+The [Microsoft Authentication Library](https://www.nuget.org/packages/Microsoft.Identity.Client) contains classes and methods that make it easy to authenticate users through the v2.0 authentication endpoint.
 
 1. In the Solution Explorer right-click the **XamarinConnect (Portable)** project and select **Manage NuGet Packages...**
 2. Click Browse and search for Microsoft.Identity.Client.
 3. Select the latest version of the Microsoft Authentication Library and click **Install**.
+
+Perform these same steps for the **XamarinConnect.Droid**, **XamarinConnect.iOS**, and **XamarinConnect.UWP** projects. Your app will not build if MSAL isn't installed in all four projects.
 
 ## Install the Microsoft Graph Client Library
 
@@ -83,7 +85,7 @@ The `GetTokenHelperAsync` method runs when the user authenticates and subsequent
 
 **Using declarations**
 
-Add these declarations to the top of the file:
+Make sure you have these declarations to the top of the file:
 
 ```c#
 using Microsoft.Graph;
@@ -96,7 +98,7 @@ using Microsoft.Identity.Client;
 
 **Class fields**
 
-Add these fields inside the AuthenticationHelper class:
+Make sure you have these fields inside the AuthenticationHelper class:
 
 ```c#
 public static string TokenForUser = null;
@@ -144,7 +146,7 @@ The `Signout` method signs out all users logged in through the `PublicClientAppl
 
 **GetAuthenticatedClient**
 
-Finally, you'll need a method that creates a `GraphServicesClient`. This method  creates a client that uses the `GetTokenForUserAsync` method for every call through the client to the Microsoft Graph.
+Finally, you'll need a method that creates a `GraphServicesClient`. This method  creates a client that uses the `GetTokenForUserAsync` method for every call through the client to Microsoft Graph.
 
 ```c#
         public static GraphServiceClient GetAuthenticatedClient()
@@ -175,7 +177,7 @@ Finally, you'll need a method that creates a `GraphServicesClient`. This method 
         }
 ```
 
-## Send an email with the Microsoft Graph
+## Send an email with Microsoft Graph
 
 Open the MailHelper.cs file in your starter project. This file contains the code that constructs and sends an email. It consists of a single method -- ``ComposeAndSendMailAsync`` -- that constructs and sends a POST request to the **https://graph.microsoft.com/v1.0/me/microsoft.graph.SendMail** endpoint. 
 
