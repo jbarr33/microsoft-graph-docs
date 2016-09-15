@@ -1,138 +1,195 @@
 # Call Microsoft Graph in an iOS App
 
-In this article we look at the minimum tasks required to connect your application to Office 365 and calling the Microsoft Graph API. We use code from the [ios-objectivec-connect-rest-sample](https://github.com/microsoftgraph/ios-objectivec-connect-rest-sample) to explain the main concepts that you have to implement in your app. This samples covers the core fundamentals for authenticating with Microsoft Azure Active Directory (AAD), and making a simple service call against the Office 365 mail service using the Microsoft Graph API (sending a mail). It's recommended that you clone or download the project from this repository to accompany this article. 
+This article describes the tasks required to get an access token from the [v2 authentication endpoint](https://graph.microsoft.io/en-us/docs/authorization/converged_auth) and call the Microsoft Graph. It walks you through the code inside the [Office 365 Connect Sample for iOS (SDK)](https://github.com/microsoftgraph/ios-objectivec-connect-sample) to explain the main concepts that you have to implement in an app that uses Microsoft Graph. It describes how to access the Microsoft Graph by using the [Microsoft Graph SDK for iOS](https://github.com/microsoftgraph/msgraph-sdk-ios).
 
+You can download the version of the app that you'll create in this walkthrough from this GitHub repo:
 
-This article references the [Microsoft Azure Active Directory Authentication Library (ADAL) for iOS and OSX](https://github.com/AzureAD/azure-activedirectory-library-for-objc), and the [ios-objectivec-connect-rest-sample](https://github.com/microsoftgraph/ios-objectivec-connect-rest-sample) sample authenticates using this library. See this repository for more information on usage and implementation in your iOS project.
+* [Office 365 Connect Sample for iOS Using the Microsoft Graph SDK](https://github.com/microsoftgraph/ios-objectivec-connect-sample)
 
+You can also download preconfigured copies of these samples from the [Microsoft Graph Quick Starts page](http://dev.office.com/getting-started/office365apis).
 
-## Overview
-
-To call the Microsoft Graph API, your iOS app must complete the following:
-
-1. Register the application from Microsoft Azure Active Directory (AD).
-2. Request and acquire an access token from Azure AD.
-3. Use the access token in a REST request to the Microsoft Graph API. 
+This is the app you'll create.
 
 
 
-## Register the application in Azure Active Directory
-
-Before you can start working with Office 365, you need to register your application and set permissions to use Microsoft Graph services.
-With just a few clicks, you can register your application to access a user's work or school account using the [Application Registration Tool](https://dev.office.com/app-registration). To manage it you will need to go to the [Microsoft Azure Management portal](https://manage.windowsazure.com)
-
-Alternatively, see the section **Register your native app with the Azure Management Portal** in the article [Manually register your app with Azure AD so it can access Office 365 APIs](https://msdn.microsoft.com/en-us/office/office365/howto/add-common-consent-manually) for instructions on how to manually register the app, keep in mind the following details:
-
-* For the registration you'll need to supply a redirect URI. This a required value that specifies where a user will be redirected after a successful authentication attempt. If you don't specify the correct redirect URI, the authentication request will fail.
-* In the registration, the app must be granted the **Send mail as signed-in user permission** for the **Microsoft Graph**.  
 
 
-Take note of the following values in the **Configure** page of your Azure application.
+## Prerequisites
 
-* Client ID
-* Redirect URI
+To follow along with this walkthrough, you'll need: 
 
-You need these values to configure the OAuth flow in your app. 
+* [Xcode](https://developer.apple.com/xcode/downloads/) from Apple
+* Installation of [CocoaPods](https://guides.cocoapods.org/using/using-cocoapods.html) as a dependency manager
+* A [Microsoft account](https://www.outlook.com/) or an [Office 365 for business account](https://msdn.microsoft.com/en-us/office/office365/howto/setup-development-environment#bk_Office365Account)
+* The [Microsoft Graph Starter Project for iOS](). Both templates contain empty classes that you'll add code to. To get this project, clone or download the sample project from this location, and then open the workspace inside the **starter** folder.
 
-## Request and acquire an access token from Azure AD
+## Register the app
+ 
+1. Sign into the [App Registration Portal](https://apps.dev.microsoft.com/) using either your personal or work or school account.
+2. Select **Add an app**.
+3. Enter a name for the app, and select **Create application**.
+	
+	The registration page displays, listing the properties of your app.
+ 
+4. Under **Platforms**, select **Add platform**.
+5. Select **Mobile platform**.
+6. Copy the Client Id to the clipboard. You'll need to enter this value into the sample app.
 
-To request and acquire an access token for calling the Microsoft Graph API, you can use **acquireAuthTokenWithResource:clientId:redirectUri:completionBlock:**  provided by the [Microsoft Azure Active Directory Authentication Library (ADAL) for iOS and OSX](https://github.com/AzureAD/azure-activedirectory-library-for-objc). This SDK gives your application the full functionality of Microsoft Azure AD, including industry standard protocol support for OAuth2, Web API integration with user level consent, and two factor authentication support.
+	The app id is a unique identifier for your app. 
 
-This method takes the following parameters:
+7. Select **Save**.
 
-1. **resourceID** - This is the required resource you want to access. For example, we want to access the Microsoft Graph API so this value would be "https://graph.microsoft.com."
-2. **clientID** - The value given to identify your app when you completed the AAD registration.
-3. **redirectURI** - Again, this a required value that specifies where a user will be redirected after a successful authentication attempt.
+## Importing the project dependencies
 
+1. Clone this repository, [Microsoft Graph Starter Project for iOS]().
+2. Use CocoaPods to import the Microsoft Graph SDK and authentication dependencies. This sample app already contains a podfile that will get the pods into the project. Simply navigate to the starter project root, and from **Terminal** run:
 
-First you'll need to specify an authentication context. This simply defines the authority where you want to get your access token from. In our case it's from an AAD tenant and you'll need to declare it:
+        pod install
 
-	@property (strong,    nonatomic) ADAuthenticationContext *context;
-
-Then initialize it with the location of the authority ("https://login.microsoftonline.com/common"):
-
-	self.context = [ADAuthenticationContext authenticationContextWithAuthority:self.authority]; 
+   You will receive confirmation that the pods have been imported into the project. For more information, see [CocoaPods](https://guides.cocoapods.org/using/using-cocoapods.html)
 
 
-In the [ios-objectivec-connect-rest-sample](https://github.com/microsoftgraph/ios-objectivec-connect-rest-sample) sample we created a singleton authentication class (**AuthenticationManager**) for demonstration purposes that is initialized with the authority and required parameters. Again, this class is merely an example on how to approach the authentication workflow. A code segment of interest: 
+## Authenticating with Microsoft Graph
 
+To revisit the UI workflow, the app is going to have the user authenticate, and then they'll have the ability to send a mail to a specified user. To make requests against the Microsoft Graph service, an authentication provider must be supplied which is capable of authenticating HTTPS requests with an appropriate OAuth 2.0 bearer token. In the sample project there's an authentication class already stubbed out called **AuthenticationProvider.m.** We will add a function to request, and acquire, an access token for calling the Microsoft Graph API. 
 
+1. Open the Xcode project workspace (**O365-iOS-Microsoft-Graph-SDK.xcworkspace**), and navigate to the **Authentication** folder and open the file **AuthenticationProvider.m.** Add the following code to that class.
 
-	- (void)acquireAuthTokenWithResource:(NSString *)resourceID
-                            clientID:(NSString*)clientID
-                         redirectURI:(NSURL*)redirectURI
-                          completion:(void (^)(ADAuthenticationError *error))completion {
+		-(void) connectToGraphWithClientId:(NSString *)clientId scopes:(NSArray *)scopes completion:(void (^)	(NSError *))completion{
+    		[NXOAuth2AuthenticationProvider setClientId:kClientId
+                                              scopes:scopes];
     
-    NSLog(@"acquireAuthTokenWithResource");
-    [self.context acquireTokenWithResource:resourceID
-                                  clientId:clientID
-                               redirectUri:redirectURI
-                           completionBlock:^(ADAuthenticationResult *result) {
-                               NSLog(@"Completion");
-                               
-                               if (result.status !=AD_SUCCEEDED){
-                                   NSLog(@"error");
-                                   completion(result.error);
-                               }
-                               
-                               else{
-                                   NSLog(@"complete!");
-                                   self.accessToken = result.accessToken;
-                                   self.userID = result.tokenCacheStoreItem.userInformation.userId;
-                                   completion(nil);
-                               }
-                           }];
-
-
-The first time this app is run, the Authentication Manager will send a request to the authority which 
-will redirect you to a login page. You'll provide your credentials and the response will 
-contain the authentication result. If it's successful, it will also contain your refresh and access tokens. The second time this application is run, and assuming 
-you didn't clear your token cache and cookies, the Authentication Manager will use the access or refresh 
-token in the cache to authenticate client requests. This will result in a call to the service if you need to get an access token. 
-
-
-## Use the access token in a request to the Microsoft Graph API
-
-With an access token, your app can make authenticated requests to the Microsoft Graph API. Your app must append the access token to the HTTP request header under **Authorization**.
-
-The [ios-objectivec-connect-rest-sample](https://github.com/microsoftgraph/ios-objectivec-connect-rest-sample) sample sends an email using the sendMail endpoint in the Microsoft Graph API. Again, our in our sample we created a singleton authentication class (AuthenticationManager) that is initialized with the access token. We'll need the access token to construct our request.
-
-
-
-	- (void)sendMailREST {
     
-    AuthenticationManager *authManager = [AuthenticationManager sharedInstance];
+    		/**
+     		Obtains access token by performing login with UI, where viewController specifies the parent view controller.
+     		@param viewController The view controller to present the UI on.
+    		 @param completionHandler The completion handler to be called when the authentication has completed.
+     		error should be non nil if there was no error, and should contain any error(s) that occurred.
+    		 */
 
-	//Helper method used to construct the email message
-    NSData *postData = [self mailContent];
+    			if ([[NXOAuth2AuthenticationProvider sharedAuthProvider] loginSilent]) {
+        		completion(nil);
+    			}
+    			else {
+        			[[NXOAuth2AuthenticationProvider sharedAuthProvider] loginWithViewController:nil completion:^(NSError *error) {
+            		if (!error) {
+                	NSLog(@"Authentication successful.");
+                	completion(nil);
+            		}
+           		 else {
+               		 NSLog(@"Authentication failed - %@", error.localizedDescription);
+                	completion(error);
+            		}
+       	 		}];
+    		}
     
-	//Microsoft Graph API endpoint for sending mail
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://graph.microsoft.com/v1.0/me/microsoft.graph.sendmail"]];
+		}
 
-    [request setHTTPMethod:@"POST"];
-    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    [request setValue:@"application/json, text/plain, */*" forHTTPHeaderField:@"Accept"];
+2. Next add the method to the header file. Open the file **AuthenticationProvider.h** and add the following code to this class.
+
+		-(void) connectToGraphWithClientId:(NSString *)clientId
+                            scopes:(NSArray *)scopes
+                        completion:(void (^)(NSError *error))completion;
+
+
+
+2. Finally we'll call this method from **ConnectViewController.m**. This controller is the default view that the app loads, and there is a single button named **Connect** that the user will tap that will initiate the authentication process. This method takes in two parameters, the **Client ID** and **scopes**, we'll discuss these in more detail below. Add the following action to **ConnectViewController.m**.
+
+		- (IBAction)connectTapped:(id)sender {
+			[self showLoadingUI:YES];   
+			NSArray *scopes = [kScopes componentsSeparatedByString:@","];
+			[self.authProvider connectToGraphWithClientId:kClientId scopes:scopes completion:^(NSError *error) {
+				if (!error) {
+					[self performSegueWithIdentifier:@"showSendMail" sender:nil];
+					[self showLoadingUI:NO];
+					NSLog(@"Authentication successful.");
+					}
+				else{
+					NSLog(NSLocalizedString(@"CHECK_LOG_ERROR", error.localizedDescription));
+					[self showLoadingUI:NO];
+					};
+				}];
+		}
+
+## Send an email with Microsoft Graph
+
+After configuring the project to be able to authenticate, the next tasks are sending a mail to a user using the Microsoft Graph API. By default the logged in user will be the recipient, but you have the ability to change it to any other recipient. The code we'll work with here is located in the **Controllers** folder and in the class **SendMailViewController.m.** You'll see that there is other code represented here for the UI, and a helper method to retrieve user profile information from the Microsoft Graph service. We'll concentrate on the methods for creating a mail message and sending that message.
+
+1. Open **SendMailViewController.m.** in the Controllers folder and add the following helper method to the class:
+
+		// Create a sample test message to send to specified user account
+		-(MSGraphMessage*) getSampleMessage{
+    		MSGraphMessage *message = [[MSGraphMessage alloc]init];
+    		MSGraphRecipient *toRecipient = [[MSGraphRecipient alloc]init];
+    		MSGraphEmailAddress *email = [[MSGraphEmailAddress alloc]init];
     
-	// Access token required for request header
-    NSString *authorization = [NSString stringWithFormat:@"Bearer %@", authManager.accessToken];
-    [request setValue:authorization forHTTPHeaderField:@"Authorization"];
-    [request setHTTPBody:postData];
-
-    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+    		email.address = self.emailAddress;
+    		toRecipient.emailAddress = email;
     
-    if(conn) {
-        NSLog(@"Connection Successful");
-    } else {
-        NSLog(@"Connection could not be made");
-    }
+    		NSMutableArray *toRecipients = [[NSMutableArray alloc]init];
+    		[toRecipients addObject:toRecipient];
     
-    [conn start];
+    		message.subject = NSLocalizedString(@"MAIL_SUBJECT", comment: "");
+    
+    		MSGraphItemBody *emailBody = [[MSGraphItemBody alloc]init];
+    		NSString *htmlContentPath = [[NSBundle mainBundle] pathForResource:@"EmailBody" ofType:@"html"];
+    		NSString *htmlContentString = [NSString stringWithContentsOfFile:htmlContentPath encoding:NSUTF8StringEncoding error:nil];
+    
+    		emailBody.content = htmlContentString;
+    		emailBody.contentType = [MSGraphBodyType html];
+    		message.body = emailBody;
+    
+    		message.toRecipients = toRecipients;
+    
+    		return message;
+    
+		}
 
-As you can see, the response is handled with the NSURLConnection delegates, namely the NSURLConnectionDelegate and NSURLConnectionDataDelegate.
 
-## Next Steps
+2. Open **SendMailViewController.m.** Add the following send mail method to the class.  
 
-If access token is expired, or about to expire, you can use ADAuthenticationContext’s **acquireTokenSilentWithResource:clientId:redirectUri:completionBlock:** to acquire a new access token. It's usage is covered in the [ios-objectivec-connect-rest-sample](https://github.com/microsoftgraph/ios-objectivec-connect-rest-sample) sample. Also, you can find the code to clear your token cache and stored cookies.  
+		//Send mail to the specified user in the email text field
+		-(void) sendMail {   
+    		MSGraphMessage *message = [self getSampleMessage];
+    		MSGraphUserSendMailRequestBuilder *requestBuilder = [[self.graphClient me]sendMailWithMessage:message saveToSentItems:true];
+    		NSLog(@"%@", requestBuilder);
+    		MSGraphUserSendMailRequest *mailRequest = [requestBuilder request];
+    		[mailRequest executeWithCompletion:^(NSDictionary *response, NSError *error) {
+        		if(!error){
+            		NSLog(@"response %@", response);
+            		NSLog(NSLocalizedString(@"ERROR", ""), error.localizedDescription);
+            
+            		dispatch_async(dispatch_get_main_queue(), ^{
+                		self.statusTextView.text = NSLocalizedString(@"SEND_SUCCESS", comment: "");
+            	});
+        	}
+        	else {
+            	NSLog(NSLocalizedString(@"ERROR", ""), error.localizedDescription);
+           	 	self.statusTextView.text = NSLocalizedString(@"SEND_FAILURE", comment: "");
+        		}
+    		}];
+    
+		}
 
-The Microsoft Graph API is a very powerful, unifiying API that can be used to interact with all kinds of Microsoft data. Check out the [API reference](http://graph.microsoft.io/docs/api-reference/v1.0) to explore what else you can accomplish with the Microsoft Graph API.
+So **getSampleMessage** creates a draft html sample mail to use for demo purposes. The next method, **sendMail**, then takes that message and executes the request to send it. Again the default recipient is the signed-in user.
 
+
+## Run the app
+1. Before running the sample you'll need to supply the client ID you received from the registration process in the section **Register the app.** Open **AuthenticationConstants.m** under the **Application** folder. You'll see that the ClientID from the registration process can be added to the top of the file.:  
+
+		// You will set your application's clientId
+		NSString * const kClientId    = @"ENTER_CLIENT_ID_HERE";
+		NSString * const kScopes = @"https://graph.microsoft.com/Mail.Send, https://graph.microsoft.com/User.Read, offline_access";
+Note: You'll notice that the following permission scopes have been configured for this project: **"https://graph.microsoft.com/Mail.Send", "https://graph.microsoft.com/User.Read", "offline_access"**. The service calls used in this project, sending a mail to your mail account and retrieving some profile information (Display Name, Email Address) require these permissions for the app to run properly.
+
+2. Run the sample, tap **Connect,** sign in with your personal or work or school account, and grant the requested permissions.
+
+3. Choose the **Send email** button. When the mail is sent, a success message is displayed below the button.
+
+## Next steps
+- Try out the REST API using the [Graph explorer](https://graph.microsoft.io/graph-explorer).
+- Find examples of common operations for both REST and SDK operations in the [Microsoft Graph iOS Objective C Snippets Sample](https://github.com/microsoftgraph/ios-objectiveC-snippets-sample).
+
+## See also
+- [Azure AD v2.0 protocols](https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-protocols/)
+- [Azure AD v2.0 tokens](https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-tokens/)
