@@ -21,7 +21,7 @@ To follow along with this walkthrough, you'll need:
 * [Xcode](https://developer.apple.com/xcode/downloads/) from Apple
 * Installation of [CocoaPods](https://guides.cocoapods.org/using/using-cocoapods.html) as a dependency manager
 * A [Microsoft account](https://www.outlook.com/) or an [Office 365 for business account](https://msdn.microsoft.com/en-us/office/office365/howto/setup-development-environment#bk_Office365Account)
-* The [Microsoft Graph Starter Project for iOS](). Both templates contain empty classes that you'll add code to. To get this project, clone or download the sample project from this location, and then open the workspace inside the **starter** folder.
+* The [Microsoft Graph Starter Project for iOS](https://github.com/microsoftgraph/ios-objectivec-connect-sample). This template contains classes that you'll add code to. To get this project, clone or download the sample project from this location, and you'll work with the workspace inside the **starter-project** folder (**O365-iOS-Microsoft-Graph-SDK.xcworkspace**).
 
 ## Register the app
  
@@ -41,8 +41,8 @@ To follow along with this walkthrough, you'll need:
 
 ## Importing the project dependencies
 
-1. Clone this repository, [Microsoft Graph Starter Project for iOS]().
-2. Use CocoaPods to import the Microsoft Graph SDK and authentication dependencies. This sample app already contains a podfile that will get the pods into the project. Simply navigate to the starter project root, and from **Terminal** run:
+1. Clone this repository, [Office 365 Connect Sample for iOS Using the Microsoft Graph SDK](https://github.com/microsoftgraph/ios-objectivec-connect-sample). **Remember you will use the sample in the starter-project folder and not the sample at the root of the project.**
+2. Use CocoaPods to import the Microsoft Graph SDK and authentication dependencies. This sample app already contains a podfile that will get the pods into the project. Navigate to the folder **starter-project** in the **Terminal** app, and from **Terminal** run:
 
         pod install
 
