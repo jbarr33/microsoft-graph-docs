@@ -1,13 +1,17 @@
 ﻿# Get started with the Microsoft Graph in a Ruby on Rails app
 
-This article describes the tasks required to get an access token from the v2 authentication endpoint and call the Microsoft Graph. It walks you through building the [Microsoft Graph Ruby on Rails Connect Sample](https://github.com/microsoftgraph/ruby-connect-rest-sample) and explains the main concepts that you implement to use the Microsoft Graph. The article also describes how to access the Microsoft Graph by using direct REST calls.
+This article describes the tasks required to get an access token from the v2.0 authentication endpoint and call Microsoft Graph. It walks you through building the [Microsoft Graph Ruby on Rails Connect Sample](https://github.com/microsoftgraph/ruby-connect-rest-sample) and explains the main concepts that you implement to use the Microsoft Graph. The article also describes how to access Microsoft Graph by using direct REST calls.
+
+> **Important:** While the v2.0 authentication endpoint supports users authenticating with work or school accounts as well as personal accounts, it does not support [conditional access device policies](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-device-policies/). Because of this, if your app requires enterprise authentication (that is, using work or school accounts), it is strongly recommended you use Azure AD authentication.
+
+> For detailed instructions on how to build this same sample using Azure AD as the authentication provider, see [Call Microsoft Graph in a Ruby app](../enterprise/ruby.md).
 
 This is the app you'll create. 
 
 ![Microsoft Ruby on Rails Connect sample screenshot](./images/Microsoft-Graph-Ruby-Connect-UI.png)
 
 
-**Don't feel like building an app?** Get up and running fast using the [Quick Start](), or download the [sample-name]() that this walkthrough is based on.
+**Don't feel like building an app?** Get up and running fast using the [Quick Start](http://dev.office.com/getting-started/office365apis), or download the [Ruby REST Connect sample](https://github.com/microsoftgraph/ruby-connect-rest-sample) that this walkthrough is based on.
 
 
 ## Prerequisites
@@ -19,12 +23,12 @@ To follow along with this walkthrough, you'll need:
 - Bundler dependency manager.
 - Rack web server interface for Ruby.
 - A [Microsoft account](https://www.outlook.com/) or an [Office 365 for business account](https://msdn.microsoft.com/en-us/office/office365/howto/setup-development-environment#bk_Office365Account)
-- The [Microsoft Graph Connect Starter Project for Ruby on Rails](https://github.com/microsoftgraph/ruby-connect-starter)
+- The Microsoft Graph Connect Starter Project for Ruby on Rails. Download the [Microsoft Graph Ruby on Rails Connect Sample](https://github.com/microsoftgraph/ruby-connect-rest-sample). The starter project is located in the _starter_ folder.
 
 
 ## Register the application
 
-Register an app on the Microsoft App Registration Portal. This generates the app ID and password that you'll use to configure the app for authentication.
+Register an app on the Microsoft App Registration Portal. This generates the app ID and secret that you'll use to configure the app for authentication.
 
 1. Sign into the [Microsoft App Registration Portal](https://apps.dev.microsoft.com/) using either your personal or work or school account.
 
@@ -36,9 +40,9 @@ Register an app on the Microsoft App Registration Portal. This generates the app
 
 4. Copy the application ID. This is the unique identifier for your app.
 
-5. Under **Application Secrets**, choose **Generate New Password**. Copy the password from the **New password generated** dialog.
+5. Under **Application Secrets**, choose **Generate New Password**. Copy the app secret from the **New password generated** dialog.
 
-	You'll use the application ID and password to configure the app.
+	You'll use the application ID and secret to configure the app.
 
 6. Under **Platforms**, choose **Add platform** > **Web**.
 
@@ -52,7 +56,7 @@ Register an app on the Microsoft App Registration Portal. This generates the app
 
 ### Configure the project
 
-1. Download or clone the sample and open it in the editor of your choice.
+1. Download or clone the [Microsoft Graph Ruby on Rails Connect Sample](https://github.com/microsoftgraph/ruby-connect-rest-sample) as noted above. Open the _starter_ folder in the editor of your choice.
 1. If you don't already have bundler and rack, you can install them with the following command.
 
 	```
@@ -70,7 +74,7 @@ Register an app on the Microsoft App Registration Portal. This generates the app
 
 ## Authenticate the user and get an access token
 
-This app uses the authorization code grant flow with a delegated user identity. For a web application, the flow requires the application ID, password, and redirect URI from the registered app. 
+This app uses the authorization code grant flow with a delegated user identity. For a web application, the flow requires the application ID, secret, and redirect URI from the registered app. 
 
 The auth flow can be broken down into these basic steps:
 
@@ -84,7 +88,7 @@ We'll be using a stack of three pieces of [Rack](http://rack.github.io/) middlew
 
 - [OmniAuth](https://rubygems.org/gems/omniauth), a generalized Rack framework for multiple-provider authentication.
 - [Omniauth-oauth2](https://rubygems.org/gems/omniauth-oauth2), an abstract OAuth2 strategy for OmniAuth. 
-- omniauth-microsoft_v2_auth, an OmniAuth strategy that customizes Omniauth-oauth2 to specifically provide authentication against the v2 endpoint.
+- omniauth-microsoft_v2_auth, an OmniAuth strategy that customizes Omniauth-oauth2 to specifically provide authentication against the v2.0 authentication endpoint. This project is included in the code sample.
 
 ### Specify gem dependencies for authentication
 
@@ -100,7 +104,7 @@ Note that ```omniauth-microsoft_v2_auth``` is included in the app project, and w
 
 ### Configure the authentication middleware
 
-In ```config/omniauth-microsoft_v2_auth.rb```, uncomment the following lines.
+In `config/initializers/omniauth-microsoft_v2_auth.rb`, uncomment the following lines.
 
 	```
 	Rails.application.config.middleware.use OmniAuth::Builder do
@@ -110,13 +114,13 @@ In ```config/omniauth-microsoft_v2_auth.rb```, uncomment the following lines.
 	  :scope => ENV['SCOPE']
 	end
 	```
-This configures the OmniAuth middleware, including specifying the app client id and secret to use, as well as the scopes to request for the user. These are the values you specified earlier in ```config/environment.rb```.
+This configures the OmniAuth middleware, including specifying the app ID and app secret to use, as well as the scopes to request for the user. These are the values you specified earlier in ```config/environment.rb```.
 
 ### Specify routes for authentication
 
 Now we need to specify two routes necessary for the authentication flow. The first route forwards the authentication request to the OmniAuth middleware, and the second specifies the location in the app to which OmniAuth should redirect once authentication has occurred.
 
-In ```config/routes.rb```, uncomment the following route directive.
+In `config/routes.rb`, uncomment the following route directive.
 
 	get '/login', to: 'pages#login'
 
@@ -130,58 +134,58 @@ Next, we need to specify where in the app OmniAuth should redirect once authenti
 
 	match '/auth/:provider/callback', to: 'pages#callback', via: [:get, :post]
 
-When OmniAuth has finished authenticating the user, it calls the redirect URL specified in the app registration; in this case, *http://localhost:3000/auth/microsoft_v2_auth/callback*. The route above matches that URL and so routes the request to the page controller's ```callback``` method.
+When OmniAuth has finished authenticating the user, it calls the redirect URL specified in the app registration; in this case, *http://localhost:3000/auth/microsoft_v2_auth/callback*. The route pattern above matches that URL and so routes the request to the page controller's `callback` method.
 
 ### Get an access token
 
 Next, we'll add the code that actually starts the authentication process, and retrieves the access token once the user has successfully signed in.
 
-Take a look at ```app/views/pages/index.html.erb```, the view for the site root. The view includes a single button, which enables users to sign in.
+Take a look at `app/views/pages/index.html.erb`, the view for the site root. The view includes a single button, which enables users to sign in.
 
 	<button class="ms-Button" onclick="window.location.href = '/login'">
 		<span class="ms-Button-label"><%= t('connect_button') %></span>
 	</button>
 
-As shown earlier, the login method redirects to the OmniAuth middleware, which has been configured with the app's client ID and secret, as well as the scopes to request for the user. Once the user is successfully authenticated, OmniAuth returns a hash with the access token and other user information to the app.
+As shown earlier, the login method redirects to the OmniAuth middleware, which has been configured with the app ID and app secret, as well as the scopes to request for the user. Once the user is successfully authenticated, OmniAuth returns a hash with the access token and other user information to the app.
 
 Now let's add code to handle the OmniAuth callback, and retrieve information from that hash. 
 
-In ```app/controllers/pages_controller.rb```, replace the empty ```callback``` method with the following code.
+In `app/controllers/pages_controller.rb`, replace the empty `callback` method with the following code.
 
-```
-  def callback
-    # Access the authentication hash for omniauth
-    # and extract the auth token, user name, and email
-    data = request.env['omniauth.auth']
+	```
+  	def callback
+    	# Access the authentication hash for omniauth
+    	# and extract the auth token, user name, and email
+    	data = request.env['omniauth.auth']
+	
+    	@email = data[:extra][:raw_info][:userPrincipalName]
+    	@name = data[:extra][:raw_info][:displayName]
 
-    @email = data[:extra][:raw_info][:userPrincipalName]
-    @name = data[:extra][:raw_info][:displayName]
+		# Associate token/user values to the session
+    	session[:access_token] = data['credentials']['token']
+		session[:name] = @name
+		session[:email] = @email
+		
+		# Debug logging
+		logger.info "Name: #{@name}"
+		logger.info "Email: #{@email}"
+		logger.info "[callback] - Access token: #{session[:access_token]}"
+	end
 
-    # Associate token/user values to the session
-    session[:access_token] = data['credentials']['token']
-    session[:name] = @name
-    session[:email] = @email
-
-    # Debug logging
-    logger.info "Name: #{@name}"
-    logger.info "Email: #{@email}"
-    logger.info "[callback] - Access token: #{session[:access_token]}"
-  end
-
-```
+	```
 
 This method retrieves the authentication hash, and then stores the access token, user name, and email in the current session.
 
->Note: The simple authentication  and token handling in this project is presented for illustrative purposes only. In a production app, you would likely construct a more robust way of handling authentication, including secure token handling and token refresh.
+> **Note:** The simple authentication  and token handling in this project is presented for illustrative purposes only. In a production app, you would likely construct a more robust way of handling authentication, including secure token handling and token refresh.
 
 ## Call the Microsoft Graph
 
 Now you're ready to add code to call the Microsoft Graph. 
 
-The view rendered by the ```callback``` method (```app/views/pages/callback.html.erb```) includes a simple form with a single button. The form posts to  ```send_mail```, and includes a single parameter, the email address of the intended recipient.
+The view rendered by the `callback` method (`app/views/pages/callback.html.erb`) includes a simple form with a single button. The form posts to  `send_mail`, and includes a single parameter, the email address of the intended recipient.
 	
-	``` html
-   <form action="../../send_mail" method="post">
+	``` 
+	<form action="../../send_mail" method="post">
       <div class="ms-Grid-col ms-u-mdPush1 ms-u-md9 ms-u-lgPush1 ms-u-lg6">
 		...
             <div class="ms-TextField">
@@ -193,73 +197,74 @@ The view rendered by the ```callback``` method (```app/views/pages/callback.html
 		...
 	```
 
-In ```app/controllers/pages_controller.rb```, replace the empty ```send_mail``` method with the following code.
+In `app/controllers/pages_controller.rb`, replace the empty `send_mail` method with the following code.
 
-```
-  def send_mail
-    logger.debug "[send_mail] - Access token: #{session[:access_token]}"
+	```
+	def send_mail
+		logger.debug "[send_mail] - Access token: #{session[:access_token]}"
+		
+		# Used in the template
+		@name = session[:name]
+		@email = params[:specified_email]
+		@recipient = params[:specified_email]
+		@mail_sent = false
+		
+		send_mail_endpoint = URI("#{GRAPH_RESOURCE}#{SENDMAIL_ENDPOINT}")
+		content_type = CONTENT_TYPE
+		http = Net::HTTP.new(send_mail_endpoint.host, send_mail_endpoint.port)
+		http.use_ssl = true
+		
+		# If you want to use a sniffer tool, like Fiddler, to see the request
+		# you might need to add this line to tell the engine not to verify the
+		# certificate or you might see a "certificate verify failed" error
+		# http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+		
+		email_body = File.read('app/assets/MailTemplate.html')
+		email_body.sub! '{given_name}', @name
+		email_subject = t('email_subject')
+		
+		logger.debug email_body
+	
+		email_message = "{
+			Message: {
+			Subject: '#{email_subject}',
+			Body: {
+				ContentType: 'HTML',
+				Content: '#{email_body}'
+			},
+			ToRecipients: [
+				{
+					EmailAddress: {
+						Address: '#{@recipient}'
+					}
+				}
+			]
+			},
+			SaveToSentItems: true
+			}"
+			
+		response = http.post(
+			SENDMAIL_ENDPOINT,
+			email_message,
+			'Authorization' => "Bearer #{session[:access_token]}",
+			'Content-Type' => content_type
+		)
+		
+		logger.debug "Code: #{response.code}"
+		logger.debug "Message: #{response.message}"
+		
+		# The send mail endpoint returns a 202 - Accepted code on success
+		if response.code == '202'
+			@mail_sent = true
+		else
+			@mail_sent = false
+			flash[:httpError] = "#{response.code} - #{response.message}"
+		end
+		
+		render 'callback'
+	end
+	```
 
-    # Used in the template
-    @name = session[:name]
-    @email = params[:specified_email]
-    @recipient = params[:specified_email]
-    @mail_sent = false
-
-    send_mail_endpoint = URI("#{GRAPH_RESOURCE}#{SENDMAIL_ENDPOINT}")
-    content_type = CONTENT_TYPE
-    http = Net::HTTP.new(send_mail_endpoint.host, send_mail_endpoint.port)
-    http.use_ssl = true
-
-    # If you want to use a sniffer tool, like Fiddler, to see the request
-    # you might need to add this line to tell the engine not to verify the
-    # certificate or you might see a "certificate verify failed" error
-    # http.verify_mode = OpenSSL::SSL::VERIFY_NONE
-
-    email_body = File.read('app/assets/MailTemplate.html')
-    email_body.sub! '{given_name}', @name
-    email_subject = t('email_subject')
-
-    logger.debug email_body
-
-    email_message = "{
-            Message: {
-            Subject: '#{email_subject}',
-            Body: {
-                ContentType: 'HTML',
-                Content: '#{email_body}'
-            },
-            ToRecipients: [
-                {
-                    EmailAddress: {
-                        Address: '#{@recipient}'
-                    }
-                }
-            ]
-            },
-            SaveToSentItems: true
-            }"
-
-    response = http.post(
-      SENDMAIL_ENDPOINT,
-      email_message,
-      'Authorization' => "Bearer #{session[:access_token]}",
-      'Content-Type' => content_type
-    )
-
-    logger.debug "Code: #{response.code}"
-    logger.debug "Message: #{response.message}"
-
-    # The send mail endpoint returns a 202 - Accepted code on success
-    if response.code == '202'
-      @mail_sent = true
-    else
-      @mail_sent = false
-      flash[:httpError] = "#{response.code} - #{response.message}"
-    end
-
-    render 'callback'
-  end
-```
 This code constructs the HTTP request, formats the email, and then calls Microsoft Graph to send the email.
 
 To create the email, the code pulls the user name from the session token and the recipient email address from the parameters passed from the form. The code then reads the email body from a template included in the project, interpolates the user name and email address, and attaches the email text as the HTTP request body.
@@ -280,11 +285,12 @@ Finally, the code uses the HTTP response code returned to notify the user whethe
 	```
 	rackup -p 3000
 	```
-3. Go to ```http://localhost:3000``` in your web browser.
+3. Go to `http://localhost:3000` in your web browser.
 
 ## Next steps
 - Try out the REST API using the [Graph explorer](https://graph.microsoft.io/graph-explorer).
-- Find examples of common operations in the [snippets-sample](), or explore our other [<your-platform> samples](platform-search-link, like http://aka.ms/aspnetgraphsamples) on GitHub.
+- Find examples of common operations in the [snippets-sample](), or explore our other [Microsoft Graph samples](https://github.com/microsoftgraph) on GitHub.
 
 
 ## See also
+- [Call Microsoft Graph in a Ruby app](../enterprise/ruby.md) (Azure AD walkthrough)
