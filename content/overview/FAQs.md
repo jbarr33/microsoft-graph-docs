@@ -15,17 +15,15 @@ You can use the API in four steps:
 
 As a developer you can use the API to create custom apps that access and interact with all the richness of enterprise and productivity data--users, groups, organizational contacts, files, folders, mail, calendar, insights and relationships--and build apps across all mobile, web, and desktop platforms. No matter your development platform or tools. Using a single service endpoint to access those entities and data. And a single authentication flow.  -->
 
-You can:
+With Microsoft Graph, you can:
 
-<!--Just like in Office 365 APIs, Office 365 unified endpoint API  allows you to build apps using any development environment of your choice:  -->
-
-- Use any development environment you're familiar with, like .NET, PHP, Java, Python, or Ruby
-- Use any  programming language, development platform, and hosting environment
-- Build an  app that accesses the API using any web language, including JavaScript, HTML5, Python, Ruby, PHP, and ASP.NET  
-- Use the IDE of your choice, whether that's Visual Studio, Eclipse, Android Studio, Xcode or something else you choose
-- Host your apps in Microsoft Azure or any cloud platform
-- Develop apps for Windows Universal, iOS, Android, or on another device platform
-- Call the API from Office Add-ins (formerly apps for Office) or SharePoint Add-ins (formerly apps for SharePoint)
+- Use any development environment you choose.
+- Use any  programming language, development platform, and hosting environment.
+- Build an  app that accesses the Microsoft Graph API using any web language.  
+- Use the IDE of your choice.
+- Host your apps in Microsoft Azure or any cloud platform.
+- Develop apps for a variety of device platform.
+- Call the Microsoft Graph API from Office or SharePoint add-ins.
  
 
 
@@ -106,13 +104,3 @@ Yes. For more information see [Authenticate Microsoft Graph endpoints using the 
 
 
 
-
-
-<!-- {
-  "type": "#page.annotation",
-  "description": "Answers to some frequently-asked questions about the Microsoft Graph.",
-  "tocPath": "Overview/FAQs",
-  "apiVersion": "",
-  "section": "documentation",
-  "canonicalURL": ""
-} -->
