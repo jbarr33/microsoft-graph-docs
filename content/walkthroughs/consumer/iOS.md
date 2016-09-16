@@ -53,7 +53,7 @@ To follow along with this walkthrough, you'll need:
 
 To revisit the UI workflow, the app is going to have the user authenticate, and then they'll have the ability to send a mail to a specified user. To make requests against the Microsoft Graph service, an authentication provider must be supplied which is capable of authenticating HTTPS requests with an appropriate OAuth 2.0 bearer token. In the sample project there's an authentication class already stubbed out called **AuthenticationProvider.m.** We will add a function to request, and acquire, an access token for calling the Microsoft Graph API. 
 
-1. Open the Xcode project workspace (**O365-iOS-Microsoft-Graph-SDK.xcworkspace**), and navigate to the **Authentication** folder and open the file **AuthenticationProvider.m.** Add the following code to that class.
+1. Open the Xcode project workspace (**O365-iOS-Microsoft-Graph-SDK.xcworkspace**) in the **starter-project** folder, and navigate to the **Authentication** folder and open the file **AuthenticationProvider.m.** Add the following code to that class.
 
 		-(void) connectToGraphWithClientId:(NSString *)clientId scopes:(NSArray *)scopes completion:(void (^)	(NSError *))completion{
     		[NXOAuth2AuthenticationProvider setClientId:kClientId
