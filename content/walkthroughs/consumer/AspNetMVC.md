@@ -10,7 +10,7 @@ The Azure AD [v2.0 endpoint](https://azure.microsoft.com/en-us/documentation/art
 
 >MSAL is currently in prerelease, and as such should not be used in production code. It is used here for illustrative purposes only. 
 
-**Don't feel like building an app?** Get up and running fast using the [Quick Start](xxx).
+**Don't feel like building an app?** Get up and running fast using the [Quick Start](https://graph.microsoft.io/en-us/getting-started).
 
 
 ## Prerequisites
@@ -42,7 +42,7 @@ In this step, you'll register an app on the Microsoft App Registration Portal. T
 
 6. Under **Platforms**, choose **Add platform** > **Web**.
 
-7. Make sure the **Allow Implicit Flow** check box is selected, and enter *https://localhost:44300/* as the Redirect URI. 
+7. Make sure the **Allow Implicit Flow** check box is selected, and enter *http://localhost:55065/* as the Redirect URI. 
 
    The **Allow Implicit Flow** option enables the OpenID Connect hybrid flow. During authentication, this enables the app to receive both sign-in info (the **id_token**) and artifacts (in this case, an authorization code) that the app uses to obtain an access token.
 
@@ -56,7 +56,7 @@ In this step, you'll register an app on the Microsoft App Registration Portal. T
 
 3. Locate the app configuration keys in the **appSettings** element. Replace the ENTER_YOUR_CLIENT_ID and ENTER_YOUR_SECRET placeholder values with the values you just copied.
 
-The redirect URI is the SSL URL of the project that you registered. The requested [permission scopes](https://graph.microsoft.io/en-us/docs/authorization/permission_scopes) allow the app to get user profile information and send an email.
+The redirect URI is the URL of the project that you registered. The requested [permission scopes](https://graph.microsoft.io/en-us/docs/authorization/permission_scopes) allow the app to get user profile information and send an email.
 
 
 ## Authenticate the user and get an access token
